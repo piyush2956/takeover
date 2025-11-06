@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Special Settings</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+         :root {
+            --primary-color: #4e73df;
+            --secondary-color: #858796;
+            --success-color: #1cc88a;
+            --warning-color: #f6c23e;
+            --danger-color: #e74a3b;
+            --glass-bg: rgba(255, 255, 255, 0.9);
+        }
+        /* Dashboard-matching styles */
+        
+        .sidebar {
+            background: linear-gradient(180deg, var(--primary-color) 0%, #224abe 100%);
+            min-height: 100vh;
+        }
+        
+        .sidebar .nav-link {
+            color: rgba(255, 255, 255, .8);
+        }
+        
+        .sidebar .nav-link:hover {
+            color: #fff;
+        }
+        
+        .card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            transform-style: preserve-3d;
+            perspective: 1000px;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+            transform: translateY(-5px) rotateX(2deg) rotateY(2deg);
+        }
+        
+        .stats-icon {
+            font-size: 2rem;
+            opacity: 0.3;
+        }
+        /* Mobile navigation styles */
+        
+        .mobile-nav {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        
+        @media (max-width: 991.98px) {
+            .sidebar {
+                display: none;
+            }
+            .mobile-nav {
+                display: flex;
+                padding: 0.5rem;
+                justify-content: space-around;
+            }
+            .content-wrapper {
+                margin-bottom: 4rem;
+            }
+        }
+        
+        .mobile-nav .nav-link {
+            text-align: center;
+            padding: 0.5rem;
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+        
+        .mobile-nav .nav-link.active {
+            color: var(--primary-color);
+        }
+        
+        .mobile-nav i {
+            display: block;
+            font-size: 1.25rem;
+            margin-bottom: 0.25rem;
+        }
+        
+        .mobile-nav span {
+            font-size: 0.75rem;
+        }
+        /* Content Area Styling */
+        
+        .content-wrapper {
+            background: linear-gradient(135deg, #f8f9fc 0%, #e8eaf6 100%);
+            padding: 2rem !important;
+            min-height: 100vh;
+        }
+        
+        .content-wrapper h2 {
+            color: #5a5c69;
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+        
+        .content-wrapper h2:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50px;
+            height: 3px;
+            background: var(--primary-color);
+        }
+        
+        .card {
+            border: none;
+            border-radius: 0.75rem;
+            box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+            margin-bottom: 1.5rem;
+        }
+        
+        .card-header {
+            background: rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 0.75rem 0.75rem 0 0 !important;
+            padding: 1rem 1.25rem;
+        }
+        
+        .card-body {
+            padding: 1.5rem;
+        }
+        
+        .input-group {
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        
+        .input-group-text,
+        .form-control {
+            border: 1px solid #eaecf4;
+        }
+        
+        .form-control:focus {
+            box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+        }
+        
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .table {
+            margin-bottom: 0;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 0.5rem;
+        }
+        
+        .table thead th {
+            background-color: rgba(78, 115, 223, 0.05);
+            border-bottom: 2px solid #eaecf4;
+            color: #5a5c69;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+        }
+        
+        .alert {
+            border-radius: 0.5rem;
+            border: none;
+            padding: 1rem 1.5rem;
+            animation: fadeIn 0.3s ease-out;
+            border-left: 4px solid;
+        }
+        
+        .alert-success {
+            background: rgba(28, 200, 138, 0.1);
+            border-left-color: var(--success-color);
+        }
+        /* Card-specific styles */
+        
+        .card-header h5 {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        
+        .form-switch .form-check-input {
+            width: 3em;
+            height: 1.5em;
+            margin-top: 0.25em;
+        }
+        
+        .form-check-input:checked {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .text-muted {
+            font-size: 0.875rem;
+        }
+        /* Animation for generated code */
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        #generatedCode .alert {
+            animation: fadeIn 0.3s ease-out;
+        }
+        /* Responsive adjustments */
+        
+        @media (max-width: 768px) {
+            .content-wrapper {
+                padding: 1rem !important;
+            }
+            .card-body {
+                padding: 1rem;
+            }
+        }
+        /* Password strength indicator */
+        
+        .password-strength {
+            height: 4px;
+            margin-top: 0.5rem;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+        
+        .password-strength.weak {
+            background: var(--danger-color);
+            width: 33%;
+        }
+        
+        .password-strength.medium {
+            background: var(--warning-color);
+            width: 66%;
+        }
+        
+        .password-strength.strong {
+            background: var(--success-color);
+            width: 100%;
+        }
+        /* Additional animations */
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        .card-body>* {
+            animation: slideIn 0.3s ease-out forwards;
+        }
+        /* Enhanced card effects */
+        
+        .card {
+            transform-style: preserve-3d;
+            perspective: 1000px;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px) rotateX(2deg) rotateY(2deg);
+        }
+        /* Floating labels */
+        
+        .form-floating {
+            position: relative;
+            margin-bottom: 1rem;
+        }
+        
+        .form-floating>label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 1rem;
+            pointer-events: none;
+            transform-origin: 0 0;
+            transition: all 0.2s ease;
+            color: #6c757d;
+        }
+        
+        .form-floating>input:focus~label,
+        .form-floating>input:not(:placeholder-shown)~label {
+            transform: scale(0.85) translateY(-0.5rem);
+            background: var(--glass-bg);
+            padding: 0 0.5rem;
+        }
+        /* Loading animation */
+        
+        .loading {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .loading::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            animation: loading 1.5s infinite;
+        }
+        
+        @keyframes loading {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+        /* Toast notifications */
+        
+        .toast-container {
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            z-index: 1050;
+        }
+        
+        .toast {
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border-radius: 0.5rem;
+            border-left: 4px solid;
+            margin-bottom: 0.5rem;
+        }
+        /* Card shine effect */
+        
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, transparent 0%, rgba(255, 255, 255, 0.1) 100%);
+            pointer-events: none;
+            border-radius: 0.75rem;
+        }
+        /* Enhanced Free Shipping Card Styles */
+        
+        .shipping-card .card-body {
+            background: linear-gradient(135deg, rgba(246, 194, 62, 0.05) 0%, rgba(255, 255, 255, 0.9) 100%);
+        }
+        
+        .shipping-input-wrapper {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+        
+        .shipping-amount {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--warning-color);
+            text-align: center;
+            margin: 1rem 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .shipping-info {
+            background: rgba(246, 194, 62, 0.1);
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-left: 4px solid var(--warning-color);
+        }
+        
+        .shipping-info i {
+            color: var(--warning-color);
+            margin-right: 0.5rem;
+        }
+        /* Range input styling */
+        
+        .form-range {
+            width: 100%;
+            margin: 1rem 0;
+        }
+        
+        .form-range::-webkit-slider-thumb {
+            background: var(--warning-color);
+        }
+        
+        .form-range::-webkit-slider-runnable-track {
+            background: rgba(246, 194, 62, 0.2);
+        }
+        /* Central Alert Styles */
+        
+        .central-alert {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.9);
+            z-index: 1060;
+            min-width: 300px;
+            max-width: 500px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(10px);
+            border-radius: 1rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            padding: 1.5rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .central-alert.show {
+            opacity: 1;
+            visibility: visible;
+            transform: translate(-50%, -50%) scale(1);
+        }
+        
+        .central-alert-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .central-alert.success {
+            border: 2px solid var(--success-color);
+        }
+        
+        .central-alert.error {
+            border: 2px solid var(--danger-color);
+        }
+        
+        .central-alert-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(3px);
+            z-index: 1050;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .central-alert-overlay.show {
+            opacity: 1;
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="toast-container"></div>
+    <div class="central-alert-overlay"></div>
+    <div class="central-alert">
+        <div class="text-center">
+            <div class="central-alert-icon">
+                <i class="fas"></i>
+            </div>
+            <h4 class="alert-title mb-3"></h4>
+            <p class="alert-message mb-4"></p>
+            <button class="btn btn-primary px-4" onclick="dismissAlert()">OK</button>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-3 col-lg-2 sidebar p-3 d-none d-lg-block">
+                <h3 class="text-white mb-4">Store Admin</h3>
+                <div class="nav flex-column">
+                    <a class="nav-link" href="../Dashbord.html">
+                        <i class="fas fa-tachometer-alt me-2"></i>Dashboard
+                    </a>
+                    <a class="nav-link" href="../Products.html">
+                        <i class="fas fa-box me-2"></i>Products
+                    </a>
+                    <a class="nav-link" href="../Orders.html">
+                        <i class="fas fa-shopping-cart me-2"></i>Orders
+                    </a>
+                    <a class="nav-link" href="../Customers.html">
+                        <i class="fas fa-users me-2"></i>Customers
+                    </a>
+                    <a class="nav-link" href="../Analytics.html">
+                        <i class="fas fa-chart-bar me-2"></i>Analytics
+                    </a>
+                    <a class="nav-link active" href="#" style="background: rgba(255,255,255,0.2); color: #fff;">
+                        <i class="fas fa-cog me-2"></i>Special Settings
+                    </a>
+                    <a class="nav-link text-danger" href="#" onclick="logout()">
+                        <i class="fas fa-sign-out-alt me-2"></i>Logout
+                    </a>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="mobile-nav">
+                <a href="../Dashbord.html" class="nav-link">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="../Orders.html" class="nav-link">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span>Orders</span>
+                </a>
+                <a href="../Products.html" class="nav-link">
+                    <i class="fas fa-box"></i>
+                    <span>Products</span>
+                </a>
+                <a href="../Customers.html" class="nav-link">
+                    <i class="fas fa-users me-2"></i>Customers
+                </a>
+
+                <a href="#" class="nav-link" id="mobileMenuMore">
+                    <i class="fas fa-ellipsis-h"></i>
+                    <span>More</span>
+                </a>
+            </nav>
+
+            <!-- Mobile Menu Modal -->
+            <div class="modal fade" id="mobileMenuModal" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Menu</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action active">
+                                    <i class="fas fa-cog"></i>
+                                    <span>Settings</span>
+                                </a>
+
+                                <a href="../Analytics.html" class="list-group-item list-group-item-action">
+                                    <i class="fas fa-chart-bar me-2"></i>Analytics
+                                </a>
+                                <a href="#" onclick="logout()" class="list-group-item list-group-item-action text-danger">
+                                    <i class="fas fa-sign-out-alt me-2"></i>Logout
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="col-md-9 col-lg-10 p-4 content-wrapper">
+                <h2 class="mb-4">Special Settings</h2>
+
+                <!-- Free Shipping Settings Card -->
+                <div class="card mb-4 shadow-sm shipping-card">
+                    <div class="card-header bg-warning text-dark">
+                        <h5 class="mb-0"><i class="fas fa-truck me-2"></i>Free Shipping Settings</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="shipping-input-wrapper">
+                            <div class="shipping-amount">
+                                <span id="shippingDisplay">1000</span> MAD
+                            </div>
+                            <input type="range" class="form-range" id="shippingThreshold" min="0" max="2000" step="100" value="1000" oninput="document.getElementById('shippingDisplay').textContent = this.value">
+                            <div class="d-flex justify-content-between text-muted">
+                                <small>0 MAD</small>
+                                <small>2000 MAD</small>
+                            </div>
+                        </div>
+                        <div class="shipping-info">
+                            <i class="fas fa-info-circle"></i>
+                            <span>Customers will get free shipping when their order exceeds this amount</span>
+                        </div>
+                        <button class="btn btn-warning w-100" onclick="saveShippingSettings()">
+                            <i class="fas fa-save me-2"></i>Save Settings
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Maintenance Mode Card -->
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0"><i class="fas fa-tools me-2"></i>Maintenance Mode</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-check form-switch mb-3">
+                            <input class="form-check-input" type="checkbox" id="maintenanceSwitch">
+                            <label class="form-check-label" for="maintenanceSwitch">Enable Maintenance Mode</label>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Maintenance Message</label>
+                            <textarea class="form-control" id="maintenanceMessage" rows="3">We're currently performing maintenance. Please check back soon.</textarea>
+                        </div>
+                        <button class="btn btn-primary" onclick="saveMaintenanceSettings()">Save Settings</button>
+                    </div>
+                </div>
+
+                <!-- Promo Code Generator Card -->
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="mb-0"><i class="fas fa-tags me-2"></i>Promo Code Generator</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Discount Percentage</label>
+                                    <input type="number" class="form-control" id="discountPercent" min="1" max="100" value="10">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Valid Until</label>
+                                    <input type="date" class="form-control" id="validUntil">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label class="form-label">Usage Limit</label>
+                                    <input type="number" class="form-control" id="usageLimit" min="1" value="100">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Code Prefix</label>
+                                    <input type="text" class="form-control" id="codePrefix" placeholder="SUMMER" value="PROMO">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-success w-100" onclick="generatePromoCode()">Generate Code</button>
+                        <div id="generatedCode" class="mt-3"></div>
+
+                        <!-- Active Promo Codes Table -->
+                        <div class="mt-4">
+                            <h6 class="mb-3">Active Promo Codes</h6>
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Code</th>
+                                            <th>Discount</th>
+                                            <th>Valid Until</th>
+                                            <th>Remaining Uses</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="activePromoCodes">
+                                        <!-- Filled dynamically -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Password Change Card -->
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header bg-danger text-white">
+                        <h5 class="mb-0"><i class="fas fa-key me-2"></i>Change Password</h5>
+                    </div>
+                    <div class="card-body">
+                        <form onsubmit="return changePassword(event)">
+                            <div class="mb-3">
+                                <label class="form-label">Current Password</label>
+                                <input type="password" class="form-control" id="currentPassword" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">New Password</label>
+                                <input type="password" class="form-control" id="newPassword" onkeyup="checkPasswordStrength(this.value)" required>
+                                <div class="password-strength" id="passwordStrength"></div>
+                                <small class="text-muted">Password must be at least 8 characters long</small>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Confirm New Password</label>
+                                <input type="password" class="form-control" id="confirmPassword" required>
+                            </div>
+                            <button type="submit" class="btn btn-danger">Update Password</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Enhanced Security Information Card -->
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0"><i class="fas fa-shield-alt me-2"></i>Login Activity</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped" id="loginActivityTable">
+                                <thead>
+                                    <tr>
+                                        <th>Date & Time</th>
+                                        <th>Device</th>
+                                        <th>IP Address</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="loginActivityBody">
+                                    <!-- Filled by JavaScript -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Authentication check
+            if (!sessionStorage.getItem('isLoggedIn')) {
+                window.location.href = '../index.html';
+                return;
+            }
+
+            // Mobile menu initialization
+            const moreButton = document.getElementById('mobileMenuMore');
+            if (moreButton) {
+                moreButton.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const mobileMenuModal = new bootstrap.Modal(document.getElementById('mobileMenuModal'));
+                    mobileMenuModal.show();
+                });
+            }
+
+            // Initialize inactivity timer
+            startInactivityTimer();
+        });
+
+        function startInactivityTimer() {
+            let inactivityTimer;
+
+            function resetTimer() {
+                clearTimeout(inactivityTimer);
+                inactivityTimer = setTimeout(logout, 300000); // 5 minutes
+            }
+
+            ['mousemove', 'keypress', 'click', 'scroll'].forEach(event => {
+                document.addEventListener(event, resetTimer);
+            });
+
+            resetTimer();
+        }
+
+        function logout() {
+            sessionStorage.clear();
+            window.location.href = '../index.html';
+        }
+
+        // Add this after existing script content
+        function saveMaintenanceSettings() {
+            const isEnabled = document.getElementById('maintenanceSwitch').checked;
+            const message = document.getElementById('maintenanceMessage').value;
+            // Save to backend/localStorage
+            alert('Maintenance settings saved!');
+        }
+
+        function generatePromoCode() {
+            const data = {
+                action: 'generate',
+                prefix: document.getElementById('codePrefix').value,
+                discount_percent: parseInt(document.getElementById('discountPercent').value),
+                valid_until: document.getElementById('validUntil').value,
+                usage_limit: parseInt(document.getElementById('usageLimit').value)
+            };
+
+            const btn = event.target;
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Generating...';
+
+            fetch('promo_code.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        document.getElementById('generatedCode').innerHTML = `
+                        <div class="alert alert-success">
+                            <strong>Generated Code:</strong> ${data.code}<br>
+                            <small>Discount: ${data.details.discount}<br>
+                            Valid Until: ${data.details.valid_until}<br>
+                            Usage Limit: ${data.details.usage_limit}</small>
+                        </div>
+                    `;
+                        loadActivePromoCodes();
+                        showAlert('Promo code generated successfully!', 'success');
+                    } else {
+                        showAlert(data.message, 'error');
+                    }
+                })
+                .catch(error => {
+                    showAlert('Error generating promo code', 'error');
+                })
+                .finally(() => {
+                    btn.disabled = false;
+                    btn.innerHTML = 'Generate Code';
+                });
+        }
+
+        function loadActivePromoCodes() {
+            fetch('promo_code.php')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        const tbody = document.getElementById('activePromoCodes');
+                        tbody.innerHTML = data.promo_codes.map(promo => `
+                            <tr>
+                                <td><strong>${promo.code}</strong></td>
+                                <td>${promo.discount}%</td>
+                                <td>${promo.valid_until}</td>
+                                <td>${promo.remaining_uses}</td>
+                            </tr>
+                        `).join('');
+                    }
+                })
+                .catch(error => console.error('Error loading promo codes:', error));
+        }
+
+        // Set default date for valid until (30 days from now)
+        document.addEventListener('DOMContentLoaded', function() {
+            // ...existing DOMContentLoaded code...
+
+            const defaultDate = new Date();
+            defaultDate.setDate(defaultDate.getDate() + 30);
+            document.getElementById('validUntil').valueAsDate = defaultDate;
+
+            // Load active promo codes on page load
+            loadActivePromoCodes();
+        });
+
+        // Update the saveShippingSettings function
+        function saveShippingSettings() {
+            const threshold = document.getElementById('shippingThreshold').value;
+            const btn = event.target;
+
+            // Add loading state
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Saving...';
+            btn.disabled = true;
+
+            fetch('threshold_shipping.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        threshold: parseFloat(threshold)
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        showAlert('Shipping threshold updated successfully', 'success');
+                    } else {
+                        showAlert(data.message || 'Failed to update shipping threshold', 'error');
+                    }
+                })
+                .catch(error => {
+                    showAlert('Error saving settings', 'error');
+                })
+                .finally(() => {
+                    btn.innerHTML = '<i class="fas fa-save me-2"></i>Save Settings';
+                    btn.disabled = false;
+                });
+        }
+
+        // Add new function to load shipping threshold
+        function loadShippingThreshold() {
+            fetch('threshold_shipping.php')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        document.getElementById('shippingThreshold').value = data.threshold;
+                        document.getElementById('shippingDisplay').textContent = data.threshold;
+                    }
+                })
+                .catch(error => console.error('Error loading shipping threshold:', error));
+        }
+
+        // Update the DOMContentLoaded event listener
+        document.addEventListener('DOMContentLoaded', function() {
+            // ...existing DOMContentLoaded code...
+
+            // Load shipping threshold when page loads
+            loadShippingThreshold();
+        });
+
+        function checkPasswordStrength(password) {
+            const strength = document.getElementById('passwordStrength');
+            strength.className = 'password-strength';
+
+            if (password.length < 8) {
+                strength.classList.add('weak');
+            } else if (password.length < 12) {
+                strength.classList.add('medium');
+            } else {
+                strength.classList.add('strong');
+            }
+        }
+
+        function changePassword(event) {
+            event.preventDefault();
+
+            // Check session status first
+            if (!sessionStorage.getItem('isLoggedIn')) {
+                showAlert('You are not logged in. Please log in again.', 'error');
+                window.location.href = '../index.html';
+                return false;
+            }
+
+            const submitButton = event.target.querySelector('button[type="submit"]');
+            const currentPassword = document.getElementById('currentPassword').value;
+            const newPassword = document.getElementById('newPassword').value;
+            const confirmPassword = document.getElementById('confirmPassword').value;
+
+            // Client-side validation
+            if (!currentPassword || !newPassword || !confirmPassword) {
+                showAlert('All fields are required', 'error');
+                return false;
+            }
+
+            if (newPassword !== confirmPassword) {
+                showAlert('New passwords do not match', 'error');
+                return false;
+            }
+
+            if (newPassword.length < 8) {
+                showAlert('Password must be at least 8 characters long', 'error');
+                return false;
+            }
+
+            // Show loading state
+            submitButton.disabled = true;
+            submitButton.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Updating...';
+
+            fetch('password_change.php', {
+                    method: 'POST',
+                    credentials: 'include', // Important: include credentials
+                    headers: {
+                        'Content-Type': 'application/json',
+                        // Add CSRF token if you have one
+                        // 'X-CSRF-Token': sessionStorage.getItem('csrfToken'),
+                    },
+                    body: JSON.stringify({
+                        currentPassword: currentPassword,
+                        newPassword: newPassword
+                    })
+                })
+                .then(response => {
+                    if (response.status === 401 || response.status === 403) {
+                        // Handle authentication errors
+                        sessionStorage.clear();
+                        window.location.href = '../index.html';
+                        throw new Error('Authentication failed. Please log in again.');
+                    }
+                    if (!response.ok) {
+                        return response.json().then(err => Promise.reject(err));
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (data.success) {
+                        showAlert(data.message, 'success');
+                        event.target.reset();
+                    } else {
+                        throw new Error(data.message || 'Failed to change password');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    showAlert(error.message || 'Error changing password. Please try again.', 'error');
+                })
+                .finally(() => {
+                    submitButton.disabled = false;
+                    submitButton.innerHTML = 'Update Password';
+                });
+
+            document.querySelector('.toast-container').appendChild(toast);
+            setTimeout(() => toast.remove(), 5000);
+        }
+
+        // Replace the existing showToast function with this new showAlert function
+        function showAlert(message, type = 'success') {
+            const overlay = document.querySelector('.central-alert-overlay');
+            const alert = document.querySelector('.central-alert');
+            const icon = alert.querySelector('.central-alert-icon i');
+            const title = alert.querySelector('.alert-title');
+            const messageEl = alert.querySelector('.alert-message');
+
+            // Set alert type
+            alert.className = 'central-alert ' + type;
+
+            // Set icon and title
+            if (type === 'success') {
+                icon.className = 'fas fa-check-circle text-success';
+                title.textContent = 'Success!';
+            } else {
+                icon.className = 'fas fa-exclamation-circle text-danger';
+                title.textContent = 'Error!';
+            }
+
+            // Set message
+            messageEl.textContent = message;
+
+            // Show alert and overlay
+            overlay.classList.add('show');
+            alert.classList.add('show');
+
+            // Auto dismiss after 3 seconds
+            setTimeout(dismissAlert, 3000);
+        }
+
+        function dismissAlert() {
+            const overlay = document.querySelector('.central-alert-overlay');
+            const alert = document.querySelector('.central-alert');
+
+            overlay.classList.remove('show');
+            alert.classList.remove('show');
+        }
+    </script>
+</body>
+
+</html>
