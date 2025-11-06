@@ -1,0 +1,493 @@
+.col-lg-4_offset-lg-1 p-0 overflow-hidden shadow-lg {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.products {
+    display: flex;
+    grid-column: 3;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px 30px;
+    flex: 0 0 30%;
+    background-color: lightgray;
+}
+
+.card {
+    flex: 1 0 30%;
+    /* Each item takes up 30% of the container's width, creating 3 columns */
+    box-sizing: border-box;
+    /* Ensures padding doesn't affect the width */
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+#carouselExampleIndicators {
+    width: 50%;
+    /* Set the carousel width to 50% of the parent container (adjust as needed) */
+    max-width: 500px;
+    /* Set a max width to prevent it from getting too large */
+    margin: 0 auto;
+    /* Center the carousel horizontally */
+}
+
+.carousel-inner {
+    height: 300px;
+    /* Adjust the height of the carousel */
+}
+
+.carousel-inner img {
+    width: 100%;
+    /* Make the image width 100% of the container */
+    height: 100%;
+    /* Set the height of the image to fill the container */
+    object-fit: cover;
+    /* Ensures the images cover the container area */
+}
+
+.fotter {
+    background-color: aliceblue;
+}
+
+.pb-2_border-bottom {
+    background-color: lightgray;
+}
+
+.bestprodact {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+}
+
+.wachhhh {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    /* Full viewport height */
+    width: 100%;
+    margin: 0;
+    /* Remove any default margin */
+}
+
+video {
+    width: 844px;
+    /* Fixed width of 1080px */
+    height: auto;
+    /* Automatic height based on the aspect ratio */
+}
+
+
+/* Hide video controls (e.g., play button) */
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+.collection-card {
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.collection-card:hover {
+    transform: scale(1.03);
+}
+
+.collection-overlay {
+    background: rgba(0, 0, 0, 0.4);
+    transition: background 0.3s ease;
+}
+
+.collection-card:hover .collection-overlay {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.btn-hover:hover {
+    background-color: #e83e8c !important;
+    color: white !important;
+}
+
+
+/* Language selector styles */
+
+.language-selector {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.language-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    backdrop-filter: blur(5px);
+}
+
+.language-popup-content {
+    background: linear-gradient(145deg, #ffffff, #f5f5f5);
+    padding: 3rem;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 450px;
+    width: 90%;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.language-popup-content h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.language-popup-content h2:nth-child(1) {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.language-popup-content h2:nth-child(2),
+.language-popup-content h2:nth-child(3) {
+    color: #666;
+    font-size: 1.6rem;
+}
+
+.language-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2.5rem;
+}
+
+.language-buttons button {
+    padding: 1.2rem;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(145deg, #007bff, #0056b3);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
+}
+
+.language-buttons button:first-child {
+    background: linear-gradient(145deg, #28a745, #218838);
+}
+
+.language-buttons button:first-child:hover {
+    background: linear-gradient(145deg, #218838, #1e7e34);
+    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.3);
+}
+
+.language-buttons button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.3);
+    background: linear-gradient(145deg, #0056b3, #004085);
+}
+
+.language-buttons button:active {
+    transform: translateY(0);
+}
+
+
+/* RTL support */
+
+[dir="rtl"] {
+    text-align: right;
+}
+
+[dir="rtl"] .nav {
+    padding-right: 0;
+}
+
+[dir="rtl"] .ms-3 {
+    margin-right: 1rem !important;
+    margin-left: 0 !important;
+}
+
+[dir="rtl"] .me-3 {
+    margin-left: 1rem !important;
+    margin-right: 0 !important;
+}
+
+[dir="rtl"] .language-popup-content {
+    font-family: 'Arial', sans-serif;
+}.col-lg-4_offset-lg-1 p-0 overflow-hidden shadow-lg {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.products {
+    display: flex;
+    grid-column: 3;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px 30px;
+    flex: 0 0 30%;
+    background-color: lightgray;
+}
+
+.card {
+    flex: 1 0 30%;
+    /* Each item takes up 30% of the container's width, creating 3 columns */
+    box-sizing: border-box;
+    /* Ensures padding doesn't affect the width */
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+#carouselExampleIndicators {
+    width: 50%;
+    /* Set the carousel width to 50% of the parent container (adjust as needed) */
+    max-width: 500px;
+    /* Set a max width to prevent it from getting too large */
+    margin: 0 auto;
+    /* Center the carousel horizontally */
+}
+
+.carousel-inner {
+    height: 300px;
+    /* Adjust the height of the carousel */
+}
+
+.carousel-inner img {
+    width: 100%;
+    /* Make the image width 100% of the container */
+    height: 100%;
+    /* Set the height of the image to fill the container */
+    object-fit: cover;
+    /* Ensures the images cover the container area */
+}
+
+.fotter {
+    background-color: aliceblue;
+}
+
+.pb-2_border-bottom {
+    background-color: lightgray;
+}
+
+.bestprodact {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+}
+
+.wachhhh {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    /* Full viewport height */
+    width: 100%;
+    margin: 0;
+    /* Remove any default margin */
+}
+
+video {
+    width: 844px;
+    /* Fixed width of 1080px */
+    height: auto;
+    /* Automatic height based on the aspect ratio */
+}
+
+
+/* Hide video controls (e.g., play button) */
+
+video::-webkit-media-controls {
+    display: none !important;
+}
+
+.collection-card {
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.collection-card:hover {
+    transform: scale(1.03);
+}
+
+.collection-overlay {
+    background: rgba(0, 0, 0, 0.4);
+    transition: background 0.3s ease;
+}
+
+.collection-card:hover .collection-overlay {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.btn-hover:hover {
+    background-color: #e83e8c !important;
+    color: white !important;
+}
+
+
+/* Language selector styles */
+
+.language-selector {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.language-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    backdrop-filter: blur(5px);
+}
+
+.language-popup-content {
+    background: linear-gradient(145deg, #ffffff, #f5f5f5);
+    padding: 3rem;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 450px;
+    width: 90%;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.language-popup-content h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.language-popup-content h2:nth-child(1) {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.language-popup-content h2:nth-child(2),
+.language-popup-content h2:nth-child(3) {
+    color: #666;
+    font-size: 1.6rem;
+}
+
+.language-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2.5rem;
+}
+
+.language-buttons button {
+    padding: 1.2rem;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(145deg, #007bff, #0056b3);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
+}
+
+.language-buttons button:first-child {
+    background: linear-gradient(145deg, #28a745, #218838);
+}
+
+.language-buttons button:first-child:hover {
+    background: linear-gradient(145deg, #218838, #1e7e34);
+    box-shadow: 0 6px 20px rgba(40, 167, 69, 0.3);
+}
+
+.language-buttons button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.3);
+    background: linear-gradient(145deg, #0056b3, #004085);
+}
+
+.language-buttons button:active {
+    transform: translateY(0);
+}
+
+
+/* RTL support */
+
+[dir="rtl"] {
+    text-align: right;
+}
+
+[dir="rtl"] .nav {
+    padding-right: 0;
+}
+
+[dir="rtl"] .ms-3 {
+    margin-right: 1rem !important;
+    margin-left: 0 !important;
+}
+
+[dir="rtl"] .me-3 {
+    margin-left: 1rem !important;
+    margin-right: 0 !important;
+}
+
+[dir="rtl"] .language-popup-content {
+    font-family: 'Arial', sans-serif;
+}
