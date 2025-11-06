@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Cart</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.png">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <div class="col-md-3 mb-2 mb-md-0">
+                <a href="../index.html" class="d-inline-flex link-body-emphasis text-decoration-none">
+                    <img src="../images/logo.png" height="70">
+                </a>
+            </div>
+
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="../index.html" class="nav-link px-2">Home</a></li>
+                <li><a href="../our prodact/index.html" class="nav-link px-2">Our Products</a></li>
+                <li><a href="../Contact us/index.html" class="nav-link px-2">Contact Us</a></li>
+                <li><a href="../about us/index.html" class="nav-link px-2">About Us</a></li>
+            </ul>
+
+            <div class="col-md-3 text-end d-flex align-items-center">
+
+                <style>
+                    .btn-special {
+                        background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+                        border: none;
+                        color: white;
+                        transition: all 0.3s ease;
+                        overflow: hidden;
+                        position: relative;
+                    }
+                    
+                    .btn-special:hover {
+                        transform: translateY(-3px);
+                        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                    }
+                    
+                    .btn-content {
+                        position: relative;
+                        z-index: 1;
+                    }
+                    
+                    .cart-icon {
+                        animation: bounce 1s infinite;
+                    }
+                    
+                    @keyframes bounce {
+                        0%,
+                        100% {
+                            transform: translateY(0);
+                        }
+                        50% {
+                            transform: translateY(-3px);
+                        }
+                    }
+                    
+                    .btn-glow {
+                        position: absolute;
+                        width: 50px;
+                        height: 50px;
+                        background: rgba(255, 255, 255, 0.3);
+                        border-radius: 50%;
+                        top: -25%;
+                        left: -25%;
+                        animation: glow 2s infinite;
+                    }
+                    
+                    @keyframes glow {
+                        0% {
+                            transform: scale(1);
+                            opacity: 0;
+                        }
+                        50% {
+                            transform: scale(2);
+                            opacity: 0.3;
+                        }
+                        100% {
+                            transform: scale(3);
+                            opacity: 0;
+                        }
+                    }
+                </style>
+                <button type="button" class="btn btn-special btn-lg position-relative" onclick="location.href='./index.html'">
+                    <span class="btn-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-dash cart-icon" viewBox="0 0 16 16">
+                            <path d="M6.5 7a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1z"/>
+                            <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                        </svg>
+                        <span class="ms-2">Cart</span>
+                    </span>
+                    <div class="btn-glow"></div>
+                </button>
+            </div>
+        </header>
+    </div>
+    <!--here-->
+    <div class="container py-5">
+        <style>
+            .color-circle {
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                display: inline-block;
+                border: 2px solid #dee2e6;
+                vertical-align: middle;
+            }
+        </style>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="card mb-4 border-0 shadow">
+                    <div class="card-header bg-white">
+                        <h4 class="mb-0">Your Shopping Cart <span class="badge bg-primary rounded-pill" id="itemCount">0</span></h4>
+                    </div>
+                    <div class="card-body" id="cartItems">
+                        <!-- ghaykhrjo hna automatique -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card border-0 shadow">
+                    <div class="card-body">
+                        <h5 class="card-title mb-4">Order Summary</h5>
+
+                        <!-- Add promo code section -->
+                        <div class="mb-3">
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="promoCode" placeholder="Enter promo code">
+                                <button class="btn btn-outline-primary" type="button" onclick="applyPromoCode()">Apply</button>
+                            </div>
+                            <div id="promoMessage" class="small mt-2" style="display: none;"></div>
+                        </div>
+
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>Subtotal</span>
+                            <span id="subtotal">0 MAD</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>Shipping</span>
+                            <span id="shippingCost">0 MAD</span>
+                        </div>
+                        <!-- Hide discount row by default -->
+                        <div class="d-flex justify-content-between mb-3 animate__animated" id="discountRow" style="display: none;">
+                            <span>Discount</span>
+                            <span id="discountAmount" class="text-success">0 MAD</span>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-between mb-4">
+                            <strong>Total</strong>
+                            <strong id="total">0 MAD</strong>
+                        </div>
+                        <!-- Free shipping alert -->
+                        <div class="alert alert-info mb-3" id="freeShippingAlert" style="display: none;">
+                            <i class="fas fa-truck me-2"></i>
+                            <span>Free shipping applied!</span>
+                        </div>
+                        <!-- Shipping threshold message -->
+                        <div class="alert alert-secondary mb-3" id="shippingThresholdMessage" style="display: none;">
+                            <small>
+                                <i class="fas fa-info-circle me-2"></i>
+                                Add <span id="amountToFreeShipping">0 MAD</span> more to get free shipping!
+                            </small>
+                        </div>
+                        <button class="btn btn-primary w-100 py-3 animate__animated animate__pulse" data-bs-toggle="modal" data-bs-target="#checkoutModal">
+                            Complete Purchase
+                        </button>
+                        <!-- Modal for checkout -->
+                        <div class="modal fade" id="checkoutModal" tabindex="-1" aria-hidden="true">
+                            <style>
+                                .checkout-modal .modal-content {
+                                    border-radius: 25px;
+                                    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+                                    background: linear-gradient(145deg, #ffffff, #f5f5f5);
+                                }
+                                
+                                .checkout-modal .modal-header {
+                                    background: linear-gradient(135deg, #FF6B6B, #4ECDC4);
+                                    border: none;
+                                    border-top-left-radius: 25px;
+                                    border-top-right-radius: 25px;
+                                    padding: 2rem;
+                                }
+                                
+                                .checkout-modal .modal-title {
+                                    font-size: 1.5rem;
+                                    font-weight: 600;
+                                    color: white;
+                                    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+                                }
+                                
+                                .checkout-modal .form-control {
+                                    border: 2px solid #e0e0e0;
+                                    border-radius: 15px;
+                                    padding: 12px;
+                                    transition: all 0.3s ease;
+                                    background: rgba(255, 255, 255, 0.9);
+                                }
+                                
+                                .checkout-modal .form-control:focus {
+                                    transform: translateY(-2px);
+                                    border-color: #4ECDC4;
+                                    box-shadow: 0 5px 15px rgba(78, 205, 196, 0.2);
+                                }
+                                
+                                .checkout-modal .btn-submit {
+                                    background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+                                    border: none;
+                                    border-radius: 15px;
+                                    padding: 15px;
+                                    font-weight: 600;
+                                    letter-spacing: 1px;
+                                    text-transform: uppercase;
+                                    transition: all 0.3s ease;
+                                }
+                                
+                                .checkout-modal .btn-submit:hover {
+                                    transform: translateY(-3px);
+                                    box-shadow: 0 8px 20px rgba(78, 205, 196, 0.3);
+                                }
+                                
+                                .input-group {
+                                    position: relative;
+                                    margin-bottom: 1.5rem;
+                                }
+                                
+                                .input-icon {
+                                    position: absolute;
+                                    left: 15px;
+                                    top: 50%;
+                                    transform: translateY(-50%);
+                                    color: #4ECDC4;
+                                    z-index: 10;
+                                }
+                                
+                                .icon-input {
+                                    padding-left: 45px;
+                                }
+                                
+                                .animate-in {
+                                    animation: slideIn 0.5s ease forwards;
+                                }
+                                
+                                @keyframes slideIn {
+                                    from {
+                                        opacity: 0;
+                                        transform: translateY(20px);
+                                    }
+                                    to {
+                                        opacity: 1;
+                                        transform: translateY(0);
+                                    }
+                                }
+                            </style>
+                            <div class="modal-dialog modal-dialog-centered modal-lg checkout-modal">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title animate-in">
+                                            <i class="fas fa-shopping-bag me-2"></i>Complete Your Order
+                                        </h5>
+                                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" style="opacity: 0.8; transition: all 0.3s ease; padding: 1rem;" onmouseover="this.style.opacity='1'; this.style.transform='rotate(90deg)'" onmouseout="this.style.opacity='0.8'; this.style.transform='rotate(0deg)'"></button>
+                                    </div>
+                                    <div class="modal-body p-4">
+                                        <form id="checkoutForm" class="animate-in">
+                                            <div class="row g-3">
+                                                <div class="col-md-6">
+                                                    <div class="input-group">
+                                                        <i class="fas fa-user input-icon"></i>
+                                                        <input type="text" class="form-control icon-input" placeholder="First Name" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="input-group">
+                                                        <i class="fas fa-user input-icon"></i>
+                                                        <input type="text" class="form-control icon-input" placeholder="Last Name" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="input-group mt-3">
+                                                <i class="fas fa-phone input-icon"></i>
+                                                <input type="tel" class="form-control icon-input" placeholder="Phone Number" required>
+                                            </div>
+
+                                            <div class="input-group mt-3">
+                                                <i class="fas fa-envelope input-icon"></i>
+                                                <input type="email" class="form-control icon-input" placeholder="Email Address">
+                                            </div>
+
+                                            <div class="input-group mt-3">
+                                                <i class="fas fa-map input-icon"></i>
+                                                <select class="form-control icon-input" id="region" onchange="updateCities()" required>
+                                                    <option value="">Select Region</option>
+                                                    <option value="tanger-tetouan-al-hoceima">Tanger-Tétouan-Al Hoceïma</option>
+                                                    <option value="loriental">L'Oriental</option>
+                                                    <option value="fes-meknes">Fès-Meknès</option>
+                                                    <option value="rabat-sale-kenitra">Rabat-Salé-Kénitra</option>
+                                                    <option value="beni-mellal-khenifra">Béni Mellal-Khénifra</option>
+                                                    <option value="casablanca-settat">Casablanca-Settat</option>
+                                                    <option value="marrakech-safi">Marrakech-Safi</option>
+                                                    <option value="draa-tafilalet">Drâa-Tafilalet</option>
+                                                    <option value="souss-massa">Souss-Massa</option>
+                                                    <option value="guelmim-oued-noun">Guelmim-Oued Noun</option>
+                                                    <option value="laayoune-sakia-el-hamra">Laâyoune-Sakia El Hamra</option>
+                                                    <option value="dakhla-ouerzed">Dakhla-Oued Ed-Dahab</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="input-group mt-3">
+                                                <i class="fas fa-city input-icon"></i>
+                                                <select class="form-control icon-input" id="city" required>
+                                                    <option value="">Select City</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="input-group mt-3">
+                                                <i class="fas fa-map-marker-alt input-icon"></i>
+                                                <textarea class="form-control icon-input" rows="2" placeholder="Detailed Address" required></textarea>
+                                            </div>
+
+                                            <button type="submit" class="btn btn-submit w-100 mt-4">
+                                                <i class="fas fa-check-circle me-2"></i>Confirm Purchase
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Rest of your existing script code remains the same -->
+    <script>
+        const FREE_SHIPPING_THRESHOLD = 500; // 500 MAD for free shipping
+
+        function showCheckoutModal() {
+            // ... (keep existing showCheckoutModal code unchanged)
+        }
+
+        // Attach event listener to complete purchase button
+        document.querySelector('.btn-primary.w-100.py-3').onclick = showCheckoutModal;
+        document.addEventListener('DOMContentLoaded', function() {
+                    // Format price to 2 decimal places
+                    function formatPrice(price) {
+                        return Number(price).toFixed(2);
+                    }
+
+                    window.updateQuantity = function(index, change) {
+                        if (!cart[index]) return; // Guard against undefined items
+
+                        const newQuantity = cart[index].quantity + change;
+                        if (newQuantity <= 0) {
+                            removeItem(index);
+                        } else {
+                            cart[index].quantity = newQuantity;
+                            localStorage.setItem('cart', JSON.stringify(cart));
+
+                            const itemContainer = document.querySelectorAll('.row.mb-4')[index];
+                            if (itemContainer) {
+                                const quantityInput = itemContainer.querySelector('input');
+                                const priceElement = itemContainer.querySelector('h5');
+                                quantityInput.value = cart[index].quantity;
+                                const itemTotal = formatPrice(cart[index].price * cart[index].quantity);
+                                priceElement.textContent = `${itemTotal} MAD`;
+
+                                updateTotals();
+                            }
+                        }
+                    };
+
+                    function updateTotals() {
+                        const cart = JSON.parse(localStorage.getItem('cart')) || [];
+                        let subtotal = 0;
+                        let highestShipping = 0;
+                        let sellerShippingMap = new Map(); // Track highest shipping per seller
+
+                        // Calculate subtotal and analyze shipping costs
+                        cart.forEach(item => {
+                            subtotal += item.price * item.quantity;
+
+                            // If item has shipping price
+                            if (item.shipping_price) {
+                                const shippingCost = parseFloat(item.shipping_price);
+                                const sellerId = item.seller_id || 'default'; // Use seller_id if exists, otherwise use 'default'
+
+                                // Update highest shipping cost for this seller
+                                if (!sellerShippingMap.has(sellerId) || shippingCost > sellerShippingMap.get(sellerId)) {
+                                    sellerShippingMap.set(sellerId, shippingCost);
+                                }
+                            }
+                        });
+
+                        // Sum up the highest shipping cost from each seller
+                        const totalShipping = Array.from(sellerShippingMap.values()).reduce((sum, cost) => sum + cost, 0);
+
+                        // Check if eligible for free shipping
+                        const isFreeShipping = subtotal >= FREE_SHIPPING_THRESHOLD;
+                        const finalShipping = isFreeShipping ? 0 : totalShipping;
+
+                        // Update display elements
+                        document.getElementById('subtotal').textContent = `${formatPrice(subtotal)} MAD`;
+                        document.getElementById('shippingCost').textContent = `${formatPrice(finalShipping)} MAD`;
+                        document.getElementById('total').textContent = `${formatPrice(subtotal + finalShipping)} MAD`;
+
+                        // Update shipping messages
+                        const freeShippingAlert = document.getElementById('freeShippingAlert');
+                        const shippingThresholdMessage = document.getElementById('shippingThresholdMessage');
+                        const amountToFreeShipping = document.getElementById('amountToFreeShipping');
+
+                        if (isFreeShipping) {
+                            freeShippingAlert.style.display = 'block';
+                            shippingThresholdMessage.style.display = 'none';
+                            if (totalShipping > 0) {
+                                freeShippingAlert.innerHTML = `<i class="fas fa-truck me-2"></i>You saved ${formatPrice(totalShipping)} MAD on shipping!`;
+                            }
+                        } else {
+                            freeShippingAlert.style.display = 'none';
+                            shippingThresholdMessage.style.display = 'block';
+                            amountToFreeShipping.textContent = `${formatPrice(FREE_SHIPPING_THRESHOLD - subtotal)}`;
+                        }
+
+                        // Apply discount if promo code is active
+                        if (activePromoCode) {
+                            const discount = (subtotal * activePromoCode.discount) / 100;
+                            document.getElementById('discountAmount').textContent = `-${formatPrice(discount)} MAD`;
+                            const finalTotal = subtotal + finalShipping - discount;
+                            document.getElementById('total').textContent = `${formatPrice(finalTotal)} MAD`;
+                            document.getElementById('discountRow').style.display = 'flex';
+                        } else {
+                            document.getElementById('discountRow').style.display = 'none';
+                        }
+                    }
+
+                    window.removeItem = function(index) {
+                        Swal.fire({
+                            title: 'Remove Item?',
+                            text: 'Are you sure you want to remove this item?',
+                            icon: 'warning',
+                            showCancelButton: true,
+                            confirmButtonColor: '#d33',
+                            cancelButtonColor: '#3085d6',
+                            confirmButtonText: 'Yes, remove it!'
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                const itemElement = document.querySelectorAll('.row.mb-4')[index];
+
+                                // Add fade out animation
+                                itemElement.style.transition = 'all 0.3s ease';
+                                itemElement.style.opacity = '0';
+                                itemElement.style.transform = 'translateX(-100px)';
+
+                                // Remove item from cart array and update localStorage
+                                cart.splice(index, 1);
+                                localStorage.setItem('cart', JSON.stringify(cart));
+
+                                // Wait for animation to complete then refresh
+                                setTimeout(() => {
+                                    // Show success toast
+                                    Swal.fire({
+                                        position: 'top-end',
+                                        icon: 'success',
+                                        title: 'Item removed',
+                                        showConfirmButton: false,
+                                        timer: 1000,
+                                        toast: true
+                                    }).then(() => {
+                                        // Refresh the page after toast
+                                        window.location.reload();
+                                    });
+                                }, 300);
+                            }
+                        });
+                    };
+
+                    // Function  display cart items
+                    function displayCart() {
+                        const cartContainer = document.getElementById('cartItems');
+                        const itemCountBadge = document.getElementById('itemCount');
+                        const subtotalElement = document.getElementById('subtotal');
+                        const totalElement = document.getElementById('total');
+                        cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+                        cartContainer.innerHTML = '';
+                        itemCountBadge.textContent = cart.length;
+
+                        let subtotal = 0;
+                        cart.forEach((item, index) => {
+                                    const itemTotal = formatPrice(item.price * item.quantity);
+                                    subtotal += item.price * item.quantity;
+                                    cartContainer.innerHTML += `
+                        <div class="row mb-4 align-items-center">
+                            <div class="col-12 col-md-4 col-lg-3">
+                                <img src="${item.image}" class="img-fluid rounded" alt="${item.name}" style="max-width: 150px;">
+                            </div>
+                            <div class="col-12 col-md-8 col-lg-9">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <span class="fw-bold" style="font-size: 1rem;">${item.name}</span>
+                                    <button onclick="removeItem(${index})" class="btn btn-outline-danger btn-sm">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"/>
+                                            <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="color-circle me-3" style="width: 20px; height: 20px; background-color: ${item.color}"></div>
+                                    <span class="text-muted" style="font-size: 0.9rem;">Size: ${item.size || 'N/A'}</span>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="input-group" style="width: 120px;">
+                                        <button class="btn btn-outline-secondary btn-sm" onclick="updateQuantity(${index}, -1)">-</button>
+                                        <input type="text" class="form-control text-center" style="font-size: 0.9rem;" value="${item.quantity}" readonly>
+                                        <button class="btn btn-outline-secondary btn-sm" onclick="updateQuantity(${index}, 1)">+</button>
+                                    </div>
+                                    <div class="text-end">
+                                        <h5 class="mb-0 fw-bold" style="font-size: 1.1rem;">${itemTotal} MAD</h5>
+                                        ${item.shipping_price ? `
+                                            <small class="text-muted">+ ${formatPrice(item.shipping_price)} MAD shipping</small>
+                                        ` : ''}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+
+                subtotalElement.textContent = `${formatPrice(subtotal)} MAD`;
+                totalElement.textContent = `${formatPrice(subtotal)} MAD`;
+                updateTotals();
+            }
+
+            // Initial display
+            displayCart();
+
+            // Add error handling for form submission
+            document.getElementById('checkoutForm').addEventListener('submit', async function(e) {
+                e.preventDefault();
+
+                if (!cart || cart.length === 0) {
+                    Swal.fire({
+                        title: 'Empty Cart',
+                        text: 'Please add items to your cart before checking out.',
+                        icon: 'warning',
+                        confirmButtonText: 'OK'
+                    });
+                    return;
+                }
+
+                // Show processing notification
+                Swal.fire({
+                    title: 'Processing...',
+                    text: 'Your order is being processed',
+                    icon: 'info',
+                    showConfirmButton: false,
+                    allowOutsideClick: false,
+                    willOpen: () => {
+                        Swal.showLoading();
+                    }
+                });
+
+                try {
+                    const formData = {
+                        firstName: this.querySelector('[placeholder="First Name"]').value,
+                        lastName: this.querySelector('[placeholder="Last Name"]').value,
+                        phone: this.querySelector('[placeholder="Phone Number"]').value,
+                        email: this.querySelector('[placeholder="Email Address"]').value,
+                        address: this.querySelector('[placeholder="Detailed Address"]').value,
+                        city: document.getElementById('city').value,
+                        region: document.getElementById('region').value,
+                        items: JSON.parse(localStorage.getItem('cart')) || [],
+                        totalAmount: parseFloat(document.getElementById('total').textContent.replace(' MAD', ''))
+                    };
+
+                    // Close processing notification and show success immediately
+                    await Swal.fire({
+                        title: 'Order Placed Successfully!',
+                        html: `
+                            <div class="text-center">
+                                <div class="mb-3">
+                                    <i class="fas fa-check-circle text-success" style="font-size: 3rem;"></i>
+                                </div>
+                                <p>Thank you for your order, ${formData.firstName}!</p>
+                                <p>We will contact you soon at: ${formData.phone}</p>
+                                <small class="text-muted">Order details have been sent to: ${formData.email}</small>
+                            </div>
+                        `,
+                        icon: 'success',
+                        confirmButtonText: 'OK',
+                        allowOutsideClick: false
+                    });
+
+                    // Clear cart and reload page
+                    localStorage.removeItem('cart');
+                    window.location.reload();
+
+                    // Send data to server in background
+                    fetch('save_order.php', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(formData)
+                    }).catch(error => {
+                        console.error('Background save error:', error);
+                    });
+
+                } catch (error) {
+                    console.error('Error:', error);
+                    Swal.fire({
+                        title: 'Error!',
+                        text: 'There was an error processing your order. Please try again.',
+                        icon: 'error',
+                        confirmButtonText: 'OK'
+                    });
+                }
+            });
+        });
+
+        const citiesByRegion = {
+            "tanger-tetouan-al-hoceima": ["Tanger", "Tétouan", "Al Hoceïma", "Chefchaouen", "Larache", "Fnideq", "M'diq", "Asilah", "Ksar El Kebir"],
+            "loriental": ["Oujda", "Nador", "Berkane", "Taourirt", "Jerada", "Driouch", "Guercif", "Bouarfa", "Ahfir", "Saidia"],
+            "fes-meknes": ["Fès", "Meknès", "Ifrane", "Sefrou", "Taza", "El Hajeb", "Moulay Yacoub", "Boulemane", "Missour", "Taounate"],
+            "rabat-sale-kenitra": ["Rabat", "Salé", "Kénitra", "Témara", "Skhirat", "Sidi Slimane", "Sidi Kacem", "Khémisset", "Souk El Arbaa"],
+            "beni-mellal-khenifra": ["Béni Mellal", "Khénifra", "Azilal", "Fquih Ben Salah", "Kasba Tadla", "Oued Zem"],
+            "casablanca-settat": ["Casablanca", "Settat", "El Jadida", "Berrechid", "Mohammedia", "Nouaceur", "Mediouna", "Sidi Bennour", "Benslimane", "Azemmour"],
+            "marrakech-safi": ["Marrakech", "Safi", "Essaouira", "Chichaoua", "Youssoufia", "El Kelâa des Sraghna", "Tamanar"],
+            "draa-tafilalet": ["Errachidia", "Ouarzazate", "Zagora", "Tinghir", "Midelt", "Rissani", "Boumalne Dades", "Tinejdad"],
+            "souss-massa": ["Agadir", "Taroudant", "Tiznit", "Inezgane", "Ait Melloul", "Chtouka Ait Baha", "Tafraoute"],
+            "guelmim-oued-noun": ["Guelmim", "Tan-Tan", "Sidi Ifni", "Assa-Zag"],
+            "laayoune-sakia-el-hamra": ["Laâyoune", "Boujdour", "Tarfaya", "Smara"],
+            "dakhla-ouerzed": ["Dakhla", "Aousserd", "Bir Gandouz", "Lagouira"]
+        };
+
+        function updateCities() {
+            const region = document.getElementById("region").value;
+            const cityDropdown = document.getElementById("city");
+
+            // Clear the current city options
+            cityDropdown.innerHTML = '<option value="">Select City</option>';
+
+            // Add new city options based on the selected region
+            if (region && citiesByRegion[region]) {
+                citiesByRegion[region].forEach(city => {
+                    const option = document.createElement("option");
+                    option.value = city.toLowerCase().replace(/\s+/g, '-');
+                    option.textContent = city;
+                    cityDropdown.appendChild(option);
+                });
+            }
+        }
+
+        // Add this to your existing JavaScript code
+        let activePromoCode = null;
+
+        async function applyPromoCode() {
+            const promoInput = document.getElementById('promoCode');
+            const promoMessage = document.getElementById('promoMessage');
+            const discountRow = document.getElementById('discountRow');
+            const code = promoInput.value.trim().toUpperCase();
+
+            if (!code) {
+                showPromoMessage('Please enter a promo code', 'text-danger');
+                return;
+            }
+
+            try {
+                // Show loading state
+                const applyButton = promoInput.nextElementSibling;
+                applyButton.disabled = true;
+                applyButton.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>';
+
+                // Simulate API call to validate promo code
+                const response = await validatePromoCode(code);
+
+                if (response.valid) {
+                    activePromoCode = response;
+                    showPromoMessage(`${response.discount}% discount applied!`, 'text-success');
+                    
+                    // Show discount row with animation
+                    discountRow.classList.add('animate__fadeIn');
+                    discountRow.style.display = 'flex';
+                    
+                    updateTotals();
+                    promoInput.disabled = true;
+                    applyButton.disabled = true;
+                    applyButton.innerHTML = 'Applied ✓';
+                    applyButton.classList.remove('btn-outline-primary');
+                    applyButton.classList.add('btn-success');
+                } else {
+                    showPromoMessage('Invalid or expired promo code', 'text-danger');
+                    discountRow.style.display = 'none';
+                    activePromoCode = null;
+                }
+            } catch (error) {
+                showPromoMessage('Error applying promo code', 'text-danger');
+                discountRow.style.display = 'none';
+            } finally {
+                const applyButton = promoInput.nextElementSibling;
+                if (!activePromoCode) {
+                    applyButton.disabled = false;
+                    applyButton.innerHTML = 'Apply';
+                }
+            }
+        }
+
+        function showPromoMessage(message, className) {
+            const promoMessage = document.getElementById('promoMessage');
+            promoMessage.textContent = message;
+            promoMessage.className = `small mt-2 ${className}`;
+            promoMessage.style.display = 'block';
+        }
+
+        // Simulate promo code validation (replace with actual API call)
+        async function validatePromoCode(code) {
+            // Simulate API delay
+            await new Promise(resolve => setTimeout(resolve, 1000));
+
+            // Demo promo codes
+            const validCodes = {
+                'WELCOME10': { valid: true, discount: 10 },
+                'SAVE20': { valid: true, discount: 20 },
+                'SPECIAL30': { valid: true, discount: 30 }
+            };
+
+            return validCodes[code] || { valid: false };
+        }
+    </script>
+    </div>
+    <!--fotte-->
+    <div class="fotter">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                    </a>
+                    <span class="mb-3 mb-md-0 text-body-secondary">© 2024 <a href="index.html" class="mb-3 mb-md-0 text-body-secondary">Elegant Woman Store</a>, Inc</span>
+                </div>
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                   <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                 </svg></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                   <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 ./hoster/3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                 </svg></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                   <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                  </svg></a></li>
+                </ul>
+
+            </footer>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>

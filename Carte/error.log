@@ -1,0 +1,3330 @@
+[27-Jan-2025 16:49:20 UTC] Starting database connection
+[27-Jan-2025 16:49:21 UTC] Database connected successfully
+[27-Jan-2025 16:49:21 UTC] Initializing OrderMailer
+[27-Jan-2025 16:49:21 UTC] Attempting to send order notification email
+[27-Jan-2025 16:49:21 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 16:49:21 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 16:49:22 UTC] Starting database connection
+[27-Jan-2025 16:49:22 UTC] Database connected successfully
+[27-Jan-2025 16:49:22 UTC] Initializing OrderMailer
+[27-Jan-2025 16:49:22 UTC] Attempting to send order notification email
+[27-Jan-2025 16:49:22 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 16:49:22 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 16:49:25 UTC] Starting database connection
+[27-Jan-2025 16:49:25 UTC] Database connected successfully
+[27-Jan-2025 16:49:25 UTC] Initializing OrderMailer
+[27-Jan-2025 16:49:25 UTC] Attempting to send order notification email
+[27-Jan-2025 16:49:25 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 16:49:25 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 16:49:30 UTC] Starting database connection
+[27-Jan-2025 16:49:30 UTC] Database connected successfully
+[27-Jan-2025 16:49:30 UTC] Initializing OrderMailer
+[27-Jan-2025 16:49:30 UTC] Attempting to send order notification email
+[27-Jan-2025 16:49:30 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 16:49:30 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 16:49:30 UTC] Starting database connection
+[27-Jan-2025 16:49:30 UTC] Database connected successfully
+[27-Jan-2025 16:49:30 UTC] Initializing OrderMailer
+[27-Jan-2025 16:49:30 UTC] Attempting to send order notification email
+[27-Jan-2025 16:49:30 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 16:49:30 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 16:49:30 UTC] Starting database connection
+[27-Jan-2025 16:49:30 UTC] Database connected successfully
+[27-Jan-2025 16:49:30 UTC] Initializing OrderMailer
+[27-Jan-2025 16:49:30 UTC] Attempting to send order notification email
+[27-Jan-2025 16:49:30 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 16:49:30 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 16:49:33 UTC] Starting database connection
+[27-Jan-2025 16:49:33 UTC] Database connected successfully
+[27-Jan-2025 16:49:33 UTC] Initializing OrderMailer
+[27-Jan-2025 16:49:33 UTC] Attempting to send order notification email
+[27-Jan-2025 16:49:33 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 16:49:33 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 16:50:16 UTC] Starting database connection
+[27-Jan-2025 16:50:16 UTC] Database connected successfully
+[27-Jan-2025 16:50:16 UTC] Initializing OrderMailer
+[27-Jan-2025 16:50:16 UTC] Attempting to send order notification email
+[27-Jan-2025 16:50:16 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 16:50:16 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 16:50:46 UTC] Starting database connection
+[27-Jan-2025 16:50:46 UTC] Database connected successfully
+[27-Jan-2025 16:50:46 UTC] Initializing OrderMailer
+[27-Jan-2025 16:50:46 UTC] Attempting to send order notification email
+[27-Jan-2025 16:50:46 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 16:50:46 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 16:51:21 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 16:51:21 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 16:51:21 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 16:51:21 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 16:51:23 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 16:51:23 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 16:51:23 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 16:51:23 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 16:51:26 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 16:51:26 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 16:51:26 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 16:51:26 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 16:51:31 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 16:51:31 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 16:51:31 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 16:51:31 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 16:51:31 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 16:51:31 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 16:51:31 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 16:51:31 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 16:51:31 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 16:51:31 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 16:51:31 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 16:51:31 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 16:51:34 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 16:51:34 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 16:51:34 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 16:51:34 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 16:52:17 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 16:52:17 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 16:52:17 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 16:52:17 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 16:52:47 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 16:52:47 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 16:52:47 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 16:52:47 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 16:55:01 UTC] Starting database connection
+[27-Jan-2025 16:55:01 UTC] Database connected successfully
+[27-Jan-2025 16:55:01 UTC] Initializing OrderMailer
+[27-Jan-2025 16:55:01 UTC] Attempting to send order notification email
+[27-Jan-2025 16:55:01 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 16:55:01 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 16:57:02 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 16:57:02 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 16:57:02 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 16:57:02 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:01:11 UTC] Starting database connection
+[27-Jan-2025 17:01:11 UTC] Database connected successfully
+[27-Jan-2025 17:01:11 UTC] Initializing OrderMailer
+[27-Jan-2025 17:01:11 UTC] Attempting to send order notification email
+[27-Jan-2025 17:01:11 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 17:01:11 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:03:12 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:03:12 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 17:03:12 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 17:03:12 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:16:05 UTC] Starting database connection
+[27-Jan-2025 17:16:05 UTC] Database connected successfully
+[27-Jan-2025 17:16:05 UTC] Initializing OrderMailer
+[27-Jan-2025 17:16:05 UTC] Attempting to send order notification email
+[27-Jan-2025 17:16:05 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 17:16:05 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:16:06 UTC] Starting database connection
+[27-Jan-2025 17:16:06 UTC] Database connected successfully
+[27-Jan-2025 17:16:06 UTC] Initializing OrderMailer
+[27-Jan-2025 17:16:06 UTC] Attempting to send order notification email
+[27-Jan-2025 17:16:06 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 17:16:06 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:18:06 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:18:07 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:18:07 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 17:18:07 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 17:18:07 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:18:32 UTC] Starting database connection
+[27-Jan-2025 17:18:32 UTC] Database connected successfully
+[27-Jan-2025 17:18:32 UTC] Initializing OrderMailer
+[27-Jan-2025 17:18:32 UTC] Attempting to send order notification email
+[27-Jan-2025 17:18:32 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 17:18:32 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:19:45 UTC] Starting database connection
+[27-Jan-2025 17:19:45 UTC] Database connected successfully
+[27-Jan-2025 17:19:45 UTC] Initializing OrderMailer
+[27-Jan-2025 17:19:45 UTC] Attempting to send order notification email
+[27-Jan-2025 17:19:45 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 17:19:45 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:20:33 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:20:33 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 17:20:33 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 17:20:33 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:21:42 UTC] Starting database connection
+[27-Jan-2025 17:21:42 UTC] Database connected successfully
+[27-Jan-2025 17:21:42 UTC] Initializing OrderMailer
+[27-Jan-2025 17:21:42 UTC] Attempting to send order notification email
+[27-Jan-2025 17:21:42 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 17:21:42 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:21:46 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:21:46 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 17:21:46 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 17:21:46 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:23:01 UTC] Starting database connection
+[27-Jan-2025 17:23:01 UTC] Database connected successfully
+[27-Jan-2025 17:23:01 UTC] Initializing OrderMailer
+[27-Jan-2025 17:23:01 UTC] Attempting to send order notification email
+[27-Jan-2025 17:23:01 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 17:23:01 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:23:43 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:23:43 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 17:23:43 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 17:23:43 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:25:02 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:25:02 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 17:25:02 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 17:25:02 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:27:27 UTC] Starting database connection
+[27-Jan-2025 17:27:27 UTC] Database connected successfully
+[27-Jan-2025 17:27:27 UTC] Initializing OrderMailer
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Mon, 27 Jan 2025 17:27:27 +0000
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: To: Admin <abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: New Order Received - Order #1
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <UM75nkcmVme3Y6FeUAWaRbTF6gtcBkNbtYhKVItC0@fashon-haven-store.com>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h2>New Order Received</h2>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p><strong>Order ID:</strong> #1</p>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p><strong>Total Amount:</strong> 250.00 MAD</p>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h3>Customer Information:</h3>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:         Name: test test<br>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:         Email: abdollahbagueri02@gmail.com<br>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:         Phone: 123456789<br>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:         Address: tetsa stionel, tinejdad, draa-tafilalet
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:         </p>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h3>Order Items:</h3>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:         <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse'>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:         <tr>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Product</th>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Size</th>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Color</th>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Quantity</th>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Price</th>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Total</th>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:         </tr><tr>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>Tress Espagne</td>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>L</td>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>Pink</td>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>1</td>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>250.00 MAD</td>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>250.00 MAD</td>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER:             </tr></table>
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:27:27 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4Yhb2l652yzHTnHT
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Mon, 27 Jan 2025 17:27:28 +0000
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: To: test test <abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: Thank You for Your Order! - Order #1
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <5sjnV1HeAShO5fpw6QokuWMfljWLTJhpXqCpuZFk@fashon-haven-store.com>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;'>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='text-align: center; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <img src='../images/logo.png' alt='Store Logo' style='max-width: 150px;'>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: linear-gradient(135deg, #FF6B6B, #4ECDC4); color: white; padding: 20px; border-radius: 10px; text-align: center; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h1 style='margin: 0;'>Thank You for Your Order!</h1>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p style='margin: 10px 0 0;'>Order #1</p>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h2 style='color: #4ECDC4; margin-top: 0;'>Hi test,</h2>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p>We're excited to let you know that we've received your order and it's being processed! We'll contact you shortly to confirm your order and arrange delivery.</p>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #ffffff; border: 1px solid #dee2e6; border-radius: 10px; padding: 20px; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h3 style='color: #FF6B6B; margin-top: 0;'>Order Summary</h3>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <table style='width: 100%; border-collapse: collapse;'>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr style='border-bottom: 1px solid #dee2e6;'>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: left; padding: 10px;'>Item</th>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: center; padding: 10px;'>Quantity</th>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: right; padding: 10px;'>Price</th>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr style='border-bottom: 1px solid #dee2e6;'>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='padding: 10px;'>Tress Espagne</td>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: center; padding: 10px;'>1</td>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: right; padding: 10px;'>250.00 MAD</td>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td colspan='2' style='text-align: right; padding: 10px;'><strong>Total:</strong></td>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: right; padding: 10px;'><strong>250.00 MAD</strong></td>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 </table>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h3 style='color: #4ECDC4; margin-top: 0;'>Delivery Information</h3>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p style='margin: 0;'>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <strong>Address:</strong><br>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     tetsa stionel<br>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     tinejdad, draa-tafilalet
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 </p>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='text-align: center; color: #6c757d; font-size: 0.9em;'>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p>If you have any questions, please don't hesitate to contact us:</p>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p><a href='tel:+212772625665' style='color: #4ECDC4; text-decoration: none;'>+212 772-625665</a></p>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <div style='margin-top: 20px;'>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <a href='#' style='margin: 0 10px; color: #4ECDC4;'><img src='path-to-facebook-icon.png' alt='Facebook'></a>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <a href='#' style='margin: 0 10px; color: #4ECDC4;'><img src='path-to-instagram-icon.png' alt='Instagram'></a>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <a href='#' style='margin: 0 10px; color: #4ECDC4;'><img src='path-to-twitter-icon.png' alt='Twitter'></a>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 </div>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4Yhb2m1qzlz6nv6p
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[27-Jan-2025 17:27:28 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:33:38 UTC] Starting database connection
+[27-Jan-2025 17:33:38 UTC] Database connected successfully
+[27-Jan-2025 17:33:38 UTC] Initializing OrderMailer
+[27-Jan-2025 17:33:38 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[27-Jan-2025 17:33:38 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:33:38 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[27-Jan-2025 17:33:38 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:33:38 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:33:38 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[27-Jan-2025 17:33:38 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[27-Jan-2025 17:33:38 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:33:38 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:33:38 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[27-Jan-2025 17:33:38 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[27-Jan-2025 17:33:38 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:33:38 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[27-Jan-2025 17:33:38 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:33:38 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[27-Jan-2025 17:33:38 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Mon, 27 Jan 2025 17:33:38 +0000
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: To: Admin <abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: New Order Received - Order #2
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <LK6ol70jZ1irhICJyNxWlfSOOk2E0HVxiwaoGHbEAY@fashon-haven-store.com>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h2>New Order Received</h2>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p><strong>Order ID:</strong> #2</p>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p><strong>Total Amount:</strong> 250.00 MAD</p>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h3>Customer Information:</h3>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         Name: ahmed bagueri<br>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         Email: abdollahbagueri02@gmail.com<br>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         Phone: 0767495006<br>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         Address: tinejdad ksar lkhorbaat, tinejdad, draa-tafilalet
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         </p>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h3>Order Items:</h3>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse'>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         <tr>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Product</th>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Size</th>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Color</th>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Quantity</th>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Price</th>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Total</th>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         </tr><tr>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>Tress Espagne</td>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>M</td>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>Pink</td>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>1</td>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>250.00 MAD</td>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>250.00 MAD</td>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             </tr></table>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4Yhb9v0Bbtz9bc1S
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Mon, 27 Jan 2025 17:33:39 +0000
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: To: ahmed bagueri <abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: Merci pour votre commande! - Commande #2
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <uS7xCMJbWbnYXzw7KFMhvOG5cPJdAEELd2nvkuSoo@fashon-haven-store.com>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:  boundary="b1=_uS7xCMJbWbnYXzw7KFMhvOG5cPJdAEELd2nvkuSoo"
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: --b1=_uS7xCMJbWbnYXzw7KFMhvOG5cPJdAEELd2nvkuSoo
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 Merci pour votre commande!
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 Commande #2
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 Bonjour ahmed,
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 Nous sommes ravis de vous informer que nous avons bien reçu votre commande! Nous vous contacterons bientôt pour confirmer votre commande et organiser la livraison.
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 Récapitulatif de la commande
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                     
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                         Article
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                         Quantité
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                         Prix
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                     
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: --b1=_uS7xCMJbWbnYXzw7KFMhvOG5cPJdAEELd2nvkuSoo
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:         <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;'>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='text-align: center; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <img src='../images/logo.png' alt='Logo du magasin' style='max-width: 150px;'>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: linear-gradient(135deg, #FF6B6B, #4ECDC4); color: white; padding: 20px; border-radius: 10px; text-align: center; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h1 style='margin: 0;'>Merci pour votre commande!</h1>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p style='margin: 10px 0 0;'>Commande #2</p>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h2 style='color: #4ECDC4; margin-top: 0;'>Bonjour ahmed,</h2>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p>Nous sommes ravis de vous informer que nous avons bien reçu votre commande! Nous vous contacterons bientôt pour confirmer votre commande et organiser la livraison.</p>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #ffffff; border: 1px solid #dee2e6; border-radius: 10px; padding: 20px; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h3 style='color: #FF6B6B; margin-top: 0;'>Récapitulatif de la commande</h3>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <table style='width: 100%; border-collapse: collapse;'>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr style='border-bottom: 1px solid #dee2e6;'>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: left; padding: 10px;'>Article</th>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: center; padding: 10px;'>Quantité</th>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: right; padding: 10px;'>Prix</th>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: --b1=_uS7xCMJbWbnYXzw7KFMhvOG5cPJdAEELd2nvkuSoo--
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4Yhb9v3TzvzHTnHb
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[27-Jan-2025 17:33:39 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Mon, 27 Jan 2025 17:33:39 +0000
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: To: ahmed bagueri <abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?2LTZg9ix2KfZiyDZhNi32YTYqNmDISAtINi32YTYqCDYsdmC2YUgIzI=?=
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <c9rUXcpwm5cp2KCKldSW4vscSIqAwPVxiNWlgSVZC4@fashon-haven-store.com>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:  boundary="b1=_c9rUXcpwm5cp2KCKldSW4vscSIqAwPVxiNWlgSVZC4"
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: --b1=_c9rUXcpwm5cp2KCKldSW4vscSIqAwPVxiNWlgSVZC4
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                 
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                 شكراً لطلبك!
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                 طلب رقم #2
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                 مرحباً ahmed،
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                 يسعدنا إعلامك بأننا تلقينا طلبك وجاري معالجته! سنتصل بك قريباً لتأكيد طلبك وترتيب التوصيل.
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                 ملخص الطلب
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                 
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                     
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                         المنتج
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                         الكمية
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                         السعر
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                     
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: --b1=_c9rUXcpwm5cp2KCKldSW4vscSIqAwPVxiNWlgSVZC4
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:         <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; direction: rtl;'>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='text-align: center; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <img src='../images/logo.png' alt='شعار المتجر' style='max-width: 150px;'>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: linear-gradient(135deg, #FF6B6B, #4ECDC4); color: white; padding: 20px; border-radius: 10px; text-align: center; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h1 style='margin: 0;'>شكراً لطلبك!</h1>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p style='margin: 10px 0 0;'>طلب رقم #2</p>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h2 style='color: #4ECDC4; margin-top: 0;'>مرحباً ahmed،</h2>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p>يسعدنا إعلامك بأننا تلقينا طلبك وجاري معالجته! سنتصل بك قريباً لتأكيد طلبك وترتيب التوصيل.</p>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #ffffff; border: 1px solid #dee2e6; border-radius: 10px; padding: 20px; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h3 style='color: #FF6B6B; margin-top: 0;'>ملخص الطلب</h3>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <table style='width: 100%; border-collapse: collapse;'>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr style='border-bottom: 1px solid #dee2e6;'>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: right; padding: 10px;'>المنتج</th>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: center; padding: 10px;'>الكمية</th>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: left; padding: 10px;'>السعر</th>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: --b1=_c9rUXcpwm5cp2KCKldSW4vscSIqAwPVxiNWlgSVZC4--
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4Yhb9w00JzzHTq5V
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[27-Jan-2025 17:33:40 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:35:03 UTC] Starting database connection
+[27-Jan-2025 17:35:03 UTC] Database connected successfully
+[27-Jan-2025 17:35:03 UTC] Initializing OrderMailer
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Mon, 27 Jan 2025 17:35:03 +0000
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: To: Admin <abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: New Order Received - Order #3
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <uSB17rPxdonq9lwmPaD6ce3vzRZWlCGfAzGeMDH7TM@fashon-haven-store.com>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h2>New Order Received</h2>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p><strong>Order ID:</strong> #3</p>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p><strong>Total Amount:</strong> 250.00 MAD</p>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h3>Customer Information:</h3>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:         Name: ahmed bagueri<br>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:         Email: abdollahbagueri02@gmail.com<br>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:         Phone: 123456789<br>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:         Address: arabr3, tinejdad, draa-tafilalet
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:         </p>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h3>Order Items:</h3>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:         <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse'>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:         <tr>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Product</th>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Size</th>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Color</th>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Quantity</th>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Price</th>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Total</th>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:         </tr><tr>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>Tress Espagne</td>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>S</td>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>Pink</td>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>1</td>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>250.00 MAD</td>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>250.00 MAD</td>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER:             </tr></table>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4YhbCW2hm6zHTnHQ
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[27-Jan-2025 17:35:03 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Mon, 27 Jan 2025 17:35:03 +0000
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: To: ahmed bagueri <abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: Merci pour votre commande! - Commande #3
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <NWZEnY10GSzSQNVAoicc1qHPpxPSjY4MW0P3TQzaE0@fashon-haven-store.com>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:  boundary="b1=_NWZEnY10GSzSQNVAoicc1qHPpxPSjY4MW0P3TQzaE0"
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: --b1=_NWZEnY10GSzSQNVAoicc1qHPpxPSjY4MW0P3TQzaE0
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 Merci pour votre commande!
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 Commande #3
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 Bonjour ahmed,
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 Nous sommes ravis de vous informer que nous avons bien reçu votre commande! Nous vous contacterons bientôt pour confirmer votre commande et organiser la livraison.
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 Récapitulatif de la commande
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                     
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                         Article
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                         Quantité
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                         Prix
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                     
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: --b1=_NWZEnY10GSzSQNVAoicc1qHPpxPSjY4MW0P3TQzaE0
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:         <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;'>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='text-align: center; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <img src='../images/logo.png' alt='Logo du magasin' style='max-width: 150px;'>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: linear-gradient(135deg, #FF6B6B, #4ECDC4); color: white; padding: 20px; border-radius: 10px; text-align: center; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h1 style='margin: 0;'>Merci pour votre commande!</h1>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p style='margin: 10px 0 0;'>Commande #3</p>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h2 style='color: #4ECDC4; margin-top: 0;'>Bonjour ahmed,</h2>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p>Nous sommes ravis de vous informer que nous avons bien reçu votre commande! Nous vous contacterons bientôt pour confirmer votre commande et organiser la livraison.</p>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #ffffff; border: 1px solid #dee2e6; border-radius: 10px; padding: 20px; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h3 style='color: #FF6B6B; margin-top: 0;'>Récapitulatif de la commande</h3>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <table style='width: 100%; border-collapse: collapse;'>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr style='border-bottom: 1px solid #dee2e6;'>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: left; padding: 10px;'>Article</th>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: center; padding: 10px;'>Quantité</th>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: right; padding: 10px;'>Prix</th>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: --b1=_NWZEnY10GSzSQNVAoicc1qHPpxPSjY4MW0P3TQzaE0--
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4YhbCW6mGGz9bc1P
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Mon, 27 Jan 2025 17:35:04 +0000
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: To: ahmed bagueri <abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: =?UTF-8?B?2LTZg9ix2KfZiyDZhNi32YTYqNmDISAtINi32YTYqCDYsdmC2YUgIzM=?=
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <fjNHcl7yGzF8xEGpTajzzesgSReB7eDIXwKgOIfVk@fashon-haven-store.com>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:  boundary="b1=_fjNHcl7yGzF8xEGpTajzzesgSReB7eDIXwKgOIfVk"
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: --b1=_fjNHcl7yGzF8xEGpTajzzesgSReB7eDIXwKgOIfVk
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 شكراً لطلبك!
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 طلب رقم #3
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 مرحباً ahmed،
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 يسعدنا إعلامك بأننا تلقينا طلبك وجاري معالجته! سنتصل بك قريباً لتأكيد طلبك وترتيب التوصيل.
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 ملخص الطلب
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                     
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                         المنتج
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                         الكمية
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                         السعر
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                     
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: --b1=_fjNHcl7yGzF8xEGpTajzzesgSReB7eDIXwKgOIfVk
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:         <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; direction: rtl;'>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='text-align: center; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <img src='../images/logo.png' alt='شعار المتجر' style='max-width: 150px;'>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: linear-gradient(135deg, #FF6B6B, #4ECDC4); color: white; padding: 20px; border-radius: 10px; text-align: center; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h1 style='margin: 0;'>شكراً لطلبك!</h1>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p style='margin: 10px 0 0;'>طلب رقم #3</p>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h2 style='color: #4ECDC4; margin-top: 0;'>مرحباً ahmed،</h2>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p>يسعدنا إعلامك بأننا تلقينا طلبك وجاري معالجته! سنتصل بك قريباً لتأكيد طلبك وترتيب التوصيل.</p>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #ffffff; border: 1px solid #dee2e6; border-radius: 10px; padding: 20px; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h3 style='color: #FF6B6B; margin-top: 0;'>ملخص الطلب</h3>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <table style='width: 100%; border-collapse: collapse;'>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr style='border-bottom: 1px solid #dee2e6;'>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: right; padding: 10px;'>المنتج</th>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: center; padding: 10px;'>الكمية</th>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: left; padding: 10px;'>السعر</th>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: --b1=_fjNHcl7yGzF8xEGpTajzzesgSReB7eDIXwKgOIfVk--
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:35:04 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[27-Jan-2025 17:35:05 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4YhbCX66xGz9bc1G
+
+[27-Jan-2025 17:35:05 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:35:05 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[27-Jan-2025 17:35:05 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:38:27 UTC] Starting database connection
+[27-Jan-2025 17:38:27 UTC] Database connected successfully
+[27-Jan-2025 17:38:27 UTC] Initializing OrderMailer
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[27-Jan-2025 17:38:27 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Mon, 27 Jan 2025 17:38:27 +0000
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: To: Admin <abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: New Order Received - Order #4
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <kIzmtYuDMwfGB93w5sh4vwtvYBxS7gVfn84W3A@fashon-haven-store.com>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h2>New Order Received</h2>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p><strong>Order ID:</strong> #4</p>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p><strong>Total Amount:</strong> 500.00 MAD</p>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h3>Customer Information:</h3>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         Name: arab3 awa testaa<br>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         Email: abdollahbagueri02@gmail.com<br>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         Phone: 0066734559<br>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         Address: tinejdad, tinejdad, draa-tafilalet
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         </p>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h3>Order Items:</h3>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse'>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         <tr>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Product</th>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Size</th>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Color</th>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Quantity</th>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Price</th>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Total</th>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         </tr><tr>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>Tress Espagne</td>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>M</td>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>Green</td>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>2</td>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>250.00 MAD</td>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>500.00 MAD</td>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             </tr></table>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4YhbHR730pz9bZHw
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Mon, 27 Jan 2025 17:38:28 +0000
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: To: arab3 awa testaa <abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: Thank You for Your Order! - Order #4
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <2HFScCdtInnYllADOb4Q5GvREPyHJsXYI6lUgI0AO2E@fashon-haven-store.com>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;'>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='text-align: center; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: linear-gradient(135deg, #FF6B6B, #4ECDC4); color: white; padding: 20px; border-radius: 10px; text-align: center; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h1 style='margin: 0;'>Thank You for Your Order!</h1>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p style='margin: 10px 0 0;'>Order #4</p>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h2 style='color: #4ECDC4; margin-top: 0;'>Hi arab3 awa,</h2>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p>We're excited to let you know that we've received your order and it's being processed! We'll contact you shortly to confirm your order and arrange delivery.</p>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #ffffff; border: 1px solid #dee2e6; border-radius: 10px; padding: 20px; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h3 style='color: #FF6B6B; margin-top: 0;'>Order Summary</h3>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <table style='width: 100%; border-collapse: collapse;'>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr style='border-bottom: 1px solid #dee2e6;'>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: left; padding: 10px;'>Item</th>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: center; padding: 10px;'>Quantity</th>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: right; padding: 10px;'>Price</th>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr style='border-bottom: 1px solid #dee2e6;'>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='padding: 10px;'>Tress Espagne</td>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: center; padding: 10px;'>2</td>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: right; padding: 10px;'>500.00 MAD</td>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td colspan='2' style='text-align: right; padding: 10px;'><strong>Total:</strong></td>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: right; padding: 10px;'><strong>500.00 MAD</strong></td>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 </table>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;'>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h3 style='color: #4ECDC4; margin-top: 0;'>Delivery Information</h3>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p style='margin: 0;'>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <strong>Address:</strong><br>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     tinejdad<br>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                     tinejdad, draa-tafilalet
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 </p>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='text-align: center; color: #6c757d; font-size: 0.9em;'>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p>If you have any questions, please don't hesitate to contact us:</p>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p><a href='tel:+212600400530' style='color: #4ECDC4; text-decoration: none;'>+212 600-400-530</a></p>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:                 
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4YhbHS2G9Qz6ntmx
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[27-Jan-2025 17:38:28 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:41:38 UTC] Starting database connection
+[27-Jan-2025 17:41:38 UTC] Database connected successfully
+[27-Jan-2025 17:41:38 UTC] Initializing OrderMailer
+[27-Jan-2025 17:41:38 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 17:41:38 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:43:20 UTC] Starting database connection
+[27-Jan-2025 17:43:20 UTC] Database connected successfully
+[27-Jan-2025 17:43:20 UTC] Initializing OrderMailer
+[27-Jan-2025 17:43:20 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:465, timeout=300, options=array()
+[27-Jan-2025 17:43:20 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 17:43:39 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:43:39 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 17:43:39 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 17:43:39 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 17:45:21 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 17:45:21 UTC] PHPMailer Debug: SERVER -> CLIENT: 
+[27-Jan-2025 17:45:21 UTC] PHPMailer Debug: SMTP ERROR: QUIT command failed: 
+[27-Jan-2025 17:45:21 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 18:38:19 UTC] Starting database connection
+[27-Jan-2025 18:38:19 UTC] Database connected successfully
+[27-Jan-2025 18:38:19 UTC] Initializing OrderMailer
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Mon, 27 Jan 2025 18:38:19 +0000
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: To: Admin <abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: New Order Received - Order #7
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <Wd8J39zFMjTZJodpv9w62pg3ecv0WtPhyPRaY7WDkNs@fashon-haven-store.com>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h2>New Order Received</h2>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p><strong>Order ID:</strong> #7</p>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p><strong>Total Amount:</strong> 250.00 MAD</p>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h3>Customer Information:</h3>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:         Name: abdellah bagueri<br>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:         Email: abdollahbagueri02@gmail.com<br>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:         Phone: 0767495006<br>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:         Address: tinejdad awa yak arabr3, tinejdad, draa-tafilalet
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:         </p>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h3>Order Items:</h3>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:         <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse'>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:         <tr>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Product</th>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Size</th>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Color</th>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Quantity</th>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Price</th>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Total</th>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:         </tr><tr>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>Tress Espagne</td>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>M</td>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>Pink</td>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>1</td>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>250.00 MAD</td>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>250.00 MAD</td>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER:             </tr></table>
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 18:38:19 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4YhccW5g8FzHTnHV
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Mon, 27 Jan 2025 18:38:20 +0000
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: To: abdellah bagueri <abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: Thank You for Your Order! - Order #7
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <TepDGmCTIlGBNBftjvSRMUtCmgGSQ81YEeTdROveUjo@fashon-haven-store.com>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:         <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;'>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='text-align: center; margin-bottom: 30px;'>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: linear-gradient(135deg, #FF6B6B, #4ECDC4); color: white; padding: 20px; border-radius: 10px; text-align: center; margin-bottom: 30px;'>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h1 style='margin: 0;'>Thank You for Your Order!</h1>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p style='margin: 10px 0 0;'>Order #7</p>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;'>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h2 style='color: #4ECDC4; margin-top: 0;'>Hi abdellah,</h2>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p>We're excited to let you know that we've received your order and it's being processed! We'll contact you shortly to confirm your order and arrange delivery.</p>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #ffffff; border: 1px solid #dee2e6; border-radius: 10px; padding: 20px; margin-bottom: 30px;'>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h3 style='color: #FF6B6B; margin-top: 0;'>Order Summary</h3>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <table style='width: 100%; border-collapse: collapse;'>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr style='border-bottom: 1px solid #dee2e6;'>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: left; padding: 10px;'>Item</th>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: center; padding: 10px;'>Quantity</th>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: right; padding: 10px;'>Price</th>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr style='border-bottom: 1px solid #dee2e6;'>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='padding: 10px;'>Tress Espagne</td>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: center; padding: 10px;'>1</td>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: right; padding: 10px;'>250.00 MAD</td>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td colspan='2' style='text-align: right; padding: 10px;'><strong>Total:</strong></td>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: right; padding: 10px;'><strong>250.00 MAD</strong></td>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                 </table>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;'>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h3 style='color: #4ECDC4; margin-top: 0;'>Delivery Information</h3>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p style='margin: 0;'>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <strong>Address:</strong><br>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                     tinejdad awa yak arabr3<br>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                     tinejdad, draa-tafilalet
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                 </p>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='text-align: center; color: #6c757d; font-size: 0.9em;'>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p>If you have any questions, please don't hesitate to contact us:</p>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p><a href='tel:+212600400530' style='color: #4ECDC4; text-decoration: none;'>+212 600-400-530</a></p>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:                 
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4YhccX1gC3z6ntnQ
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[27-Jan-2025 18:38:20 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 18:41:23 UTC] Starting database connection
+[27-Jan-2025 18:41:23 UTC] Database connected successfully
+[27-Jan-2025 18:41:23 UTC] Initializing OrderMailer
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Mon, 27 Jan 2025 18:41:23 +0000
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: To: Admin <abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: New Order Received - Order #8
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <43VOwnFzAJ1FaUvcK2btSfsimibzFgOx8CykExCAZtE@fashon-haven-store.com>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h2>New Order Received</h2>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p><strong>Order ID:</strong> #8</p>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p><strong>Total Amount:</strong> 500.00 MAD</p>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h3>Customer Information:</h3>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:         Name: abdellah bagueri<br>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:         Email: abdollahbagueri02@gmail.com<br>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:         Phone: 0767495006<br>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:         Address: tinejdad ksar lkhorbat, tinejdad, draa-tafilalet
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:         </p>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h3>Order Items:</h3>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:         <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse'>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:         <tr>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Product</th>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Size</th>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Color</th>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Quantity</th>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Price</th>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Total</th>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:         </tr><tr>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>Tress Espagne</td>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>M</td>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>Green</td>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>1</td>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>250.00 MAD</td>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>250.00 MAD</td>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:             </tr><tr>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>Tress Espagne</td>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>S</td>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>Pink</td>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>1</td>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>250.00 MAD</td>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>250.00 MAD</td>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER:             </tr></table>
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4Yhch35PWZz9bc18
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: Connection: closed
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: Connection: opened
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[27-Jan-2025 18:41:23 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Mon, 27 Jan 2025 18:41:23 +0000
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: To: abdellah bagueri <abdollahbagueri02@gmail.com>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: Thank You for Your Order! - Order #8
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <uCFomOcT79XufOpf0UE0BOCnHOMY5YKha1130vwZkTQ@fashon-haven-store.com>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:         <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;'>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='text-align: center; margin-bottom: 30px;'>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: linear-gradient(135deg, #FF6B6B, #4ECDC4); color: white; padding: 20px; border-radius: 10px; text-align: center; margin-bottom: 30px;'>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h1 style='margin: 0;'>Thank You for Your Order!</h1>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p style='margin: 10px 0 0;'>Order #8</p>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;'>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h2 style='color: #4ECDC4; margin-top: 0;'>Hi abdellah,</h2>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p>We're excited to let you know that we've received your order and it's being processed! We'll contact you shortly to confirm your order and arrange delivery.</p>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #ffffff; border: 1px solid #dee2e6; border-radius: 10px; padding: 20px; margin-bottom: 30px;'>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h3 style='color: #FF6B6B; margin-top: 0;'>Order Summary</h3>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <table style='width: 100%; border-collapse: collapse;'>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr style='border-bottom: 1px solid #dee2e6;'>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: left; padding: 10px;'>Item</th>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: center; padding: 10px;'>Quantity</th>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: right; padding: 10px;'>Price</th>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr style='border-bottom: 1px solid #dee2e6;'>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='padding: 10px;'>Tress Espagne</td>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: center; padding: 10px;'>1</td>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: right; padding: 10px;'>250.00 MAD</td>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr style='border-bottom: 1px solid #dee2e6;'>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='padding: 10px;'>Tress Espagne</td>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: center; padding: 10px;'>1</td>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: right; padding: 10px;'>250.00 MAD</td>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td colspan='2' style='text-align: right; padding: 10px;'><strong>Total:</strong></td>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: right; padding: 10px;'><strong>500.00 MAD</strong></td>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                 </table>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;'>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h3 style='color: #4ECDC4; margin-top: 0;'>Delivery Information</h3>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p style='margin: 0;'>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <strong>Address:</strong><br>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                     tinejdad ksar lkhorbat<br>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                     tinejdad, draa-tafilalet
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                 </p>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='text-align: center; color: #6c757d; font-size: 0.9em;'>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p>If you have any questions, please don't hesitate to contact us:</p>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p><a href='tel:+212600400530' style='color: #4ECDC4; text-decoration: none;'>+212 600-400-530</a></p>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:                 
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4Yhch41fC6zHTjDd
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[27-Jan-2025 18:41:24 UTC] PHPMailer Debug: Connection: closed
+[28-Jan-2025 14:22:07 UTC] Starting database connection
+[28-Jan-2025 14:22:07 UTC] Database connected successfully
+[28-Jan-2025 14:22:07 UTC] Initializing OrderMailer
+[28-Jan-2025 14:22:07 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[28-Jan-2025 14:22:07 UTC] PHPMailer Debug: Connection: opened
+[28-Jan-2025 14:22:07 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[28-Jan-2025 14:22:07 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[28-Jan-2025 14:22:07 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[28-Jan-2025 14:22:07 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[28-Jan-2025 14:22:07 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[28-Jan-2025 14:22:07 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[28-Jan-2025 14:22:07 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[28-Jan-2025 14:22:07 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[28-Jan-2025 14:22:07 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[28-Jan-2025 14:22:07 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[28-Jan-2025 14:22:07 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[28-Jan-2025 14:22:07 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<abdollahbagueri02@gmail.com>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Tue, 28 Jan 2025 14:22:07 +0000
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: To: Admin <abdollahbagueri02@gmail.com>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: New Order Received - Order #1
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <7C06at5RWtBS763KJzsDfCGfFCGzp9nVjG9Cwllc@fashon-haven-store.com>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h2>New Order Received</h2>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p><strong>Order ID:</strong> #1</p>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p><strong>Total Amount:</strong> 500.00 MAD</p>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h3>Customer Information:</h3>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         Name: mhamed nmiass<br>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         Email: mhamednmiass6@gmail.com<br>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         Phone: 0762718360<br>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         Address: meknes, meknès, fes-meknes
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         </p>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h3>Order Items:</h3>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse'>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         <tr>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Product</th>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Size</th>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Color</th>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Quantity</th>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Price</th>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Total</th>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         </tr><tr>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>Tress Espagne</td>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>XXL</td>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>Blue</td>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>2</td>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>250.00 MAD</td>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>500.00 MAD</td>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             </tr></table>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4Yj6tS1zsFz9bc1J
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: Connection: closed
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: Connection: opened
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<mhamednmiass6@gmail.com>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Tue, 28 Jan 2025 14:22:08 +0000
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: To: mhamed nmiass <mhamednmiass6@gmail.com>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: Thank You for Your Order! - Order #1
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <AVCCbi87rKSFuumdbMDX1xEPcadPu1zi6nMor8SUM@fashon-haven-store.com>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;'>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='text-align: center; margin-bottom: 30px;'>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: linear-gradient(135deg, #FF6B6B, #4ECDC4); color: white; padding: 20px; border-radius: 10px; text-align: center; margin-bottom: 30px;'>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h1 style='margin: 0;'>Merci pour votre commande !</h1>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p style='margin: 10px 0 0;'>Commande #1</p>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;'>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h2 style='color: #4ECDC4; margin-top: 0;'>Bonjour mhamed,</h2>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p>Nous sommes ravis de vous informer que nous avons bien reçu votre commande et qu'elle est en cours de traitement ! Nous vous contacterons prochainement pour confirmer votre commande et organiser la livraison.</p>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #ffffff; border: 1px solid #dee2e6; border-radius: 10px; padding: 20px; margin-bottom: 30px;'>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h3 style='color: #FF6B6B; margin-top: 0;'>Récapitulatif de la commande</h3>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <table style='width: 100%; border-collapse: collapse;'>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr style='border-bottom: 1px solid #dee2e6;'>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: left; padding: 10px;'>Article</th>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: center; padding: 10px;'>Quantité</th>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: right; padding: 10px;'>Prix</th>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr style='border-bottom: 1px solid #dee2e6;'>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='padding: 10px;'>Tress Espagne</td>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: center; padding: 10px;'>2</td>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: right; padding: 10px;'>500.00 MAD</td>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td colspan='2' style='text-align: right; padding: 10px;'><strong>Total :</strong></td>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: right; padding: 10px;'><strong>500.00 MAD</strong></td>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 </table>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;'>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h3 style='color: #4ECDC4; margin-top: 0;'>Informations de livraison</h3>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p style='margin: 0;'>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <strong>Adresse :</strong><br>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                     meknes<br>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                     meknès, fes-meknes
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 </p>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='text-align: center; color: #6c757d; font-size: 0.9em;'>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p>Si vous avez des questions, n'hésitez pas à nous contacter :</p>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p><a href='tel:+212600400530' style='color: #4ECDC4; text-decoration: none;'>+212 600-400-530</a></p>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p>Nous vous remercions de votre confiance !</p>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[28-Jan-2025 14:22:08 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[28-Jan-2025 14:22:09 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4Yj6tS6XZ3z9bc1W
+
+[28-Jan-2025 14:22:09 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[28-Jan-2025 14:22:09 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[28-Jan-2025 14:22:09 UTC] PHPMailer Debug: Connection: closed
+[05-Feb-2025 19:15:56 UTC] Starting database connection
+[05-Feb-2025 19:15:56 UTC] Database connected successfully
+[05-Feb-2025 19:15:56 UTC] Initializing OrderMailer
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: Connection: opened
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<abdollahbagueri02@gmail.com>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Wed, 5 Feb 2025 19:15:56 +0000
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: To: Admin <abdollahbagueri02@gmail.com>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: New Order Received - Order #2
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <DxU5MdAbkfFwEJJkeviSm6lH0CGOljb98juuoFeUE@fashon-haven-store.com>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h2>New Order Received</h2>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p><strong>Order ID:</strong> #2</p>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p><strong>Total Amount:</strong> 250.00 MAD</p>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h3>Customer Information:</h3>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:         <p>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:         Name: abdellah bAGUERRI<br>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:         Email: abdollahbagueri02@gmail.com<br>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:         Phone: 0767495006<br>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:         Address: ksar lkhorbat, tinejdad, draa-tafilalet
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:         </p>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:         
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:         <h3>Order Items:</h3>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:         <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse'>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:         <tr>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Product</th>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Size</th>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Color</th>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Quantity</th>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Price</th>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:             <th>Total</th>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:         </tr><tr>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>Tress Espagne</td>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>M</td>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>#fcd6ff</td>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>1</td>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>250.00 MAD</td>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <td>250.00 MAD</td>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER:             </tr></table>
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4Yp91m3sNtz9bpgD
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: Connection: closed
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: Connection: opening to smtp.hostinger.com:587, timeout=300, options=array()
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: Connection: opened
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 ESMTP smtp.hostinger.com
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-STARTTLS
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: STARTTLS
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: EHLO fashon-haven-store.com
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 250-smtp.hostinger.com
+250-PIPELINING
+250-SIZE 48811212
+250-ETRN
+250-AUTH PLAIN LOGIN
+250-ENHANCEDSTATUSCODES
+250-8BITMIME
+250-DSN
+250 CHUNKING
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[05-Feb-2025 19:15:56 UTC] PHPMailer Debug: CLIENT -> SERVER: [credentials hidden]
+[05-Feb-2025 19:15:57 UTC] PHPMailer Debug: SERVER -> CLIENT: 235 2.7.0 Authentication successful
+
+[05-Feb-2025 19:15:57 UTC] PHPMailer Debug: CLIENT -> SERVER: MAIL FROM:<contact@pixelfga.com>
+
+[05-Feb-2025 19:15:57 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.0 Ok
+
+[05-Feb-2025 19:15:57 UTC] PHPMailer Debug: CLIENT -> SERVER: RCPT TO:<abdollahbagueri02@gmail.com>
+
+[05-Feb-2025 19:15:57 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.1.5 Ok
+
+[05-Feb-2025 19:15:57 UTC] PHPMailer Debug: CLIENT -> SERVER: DATA
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: SERVER -> CLIENT: 354 End data with <CR><LF>.<CR><LF>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER: Date: Wed, 5 Feb 2025 19:15:56 +0000
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER: To: abdellah bAGUERRI <abdollahbagueri02@gmail.com>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER: From: PixelFGA Store <contact@pixelfga.com>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER: Subject: Thank You for Your Order! - Order #2
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER: Message-ID: <n5z2U32D9pOWVnKa1x5F5eLApfWY7OaObEEfcNR3c@fashon-haven-store.com>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:         <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;'>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='text-align: center; margin-bottom: 30px;'>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: linear-gradient(135deg, #FF6B6B, #4ECDC4); color: white; padding: 20px; border-radius: 10px; text-align: center; margin-bottom: 30px;'>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h1 style='margin: 0;'>Thank You for Your Order!</h1>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p style='margin: 10px 0 0;'>Order #2</p>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;'>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h2 style='color: #4ECDC4; margin-top: 0;'>Hi abdellah,</h2>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p>We're excited to let you know that we've received your order and it's being processed! We'll contact you shortly to confirm your order and arrange delivery.</p>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #ffffff; border: 1px solid #dee2e6; border-radius: 10px; padding: 20px; margin-bottom: 30px;'>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h3 style='color: #FF6B6B; margin-top: 0;'>Order Summary</h3>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <table style='width: 100%; border-collapse: collapse;'>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr style='border-bottom: 1px solid #dee2e6;'>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: left; padding: 10px;'>Item</th>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: center; padding: 10px;'>Quantity</th>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <th style='text-align: right; padding: 10px;'>Price</th>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr style='border-bottom: 1px solid #dee2e6;'>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='padding: 10px;'>Tress Espagne</td>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: center; padding: 10px;'>1</td>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: right; padding: 10px;'>250.00 MAD</td>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <tr>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td colspan='2' style='text-align: right; padding: 10px;'><strong>Total:</strong></td>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                         <td style='text-align: right; padding: 10px;'><strong>250.00 MAD</strong></td>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                     </tr>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                 </table>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='background: #f8f9fa; padding: 20px; border-radius: 10px; margin-bottom: 30px;'>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <h3 style='color: #4ECDC4; margin-top: 0;'>Delivery Information</h3>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p style='margin: 0;'>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                     <strong>Address:</strong><br>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                     ksar lkhorbat<br>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                     tinejdad, draa-tafilalet
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                 </p>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:             
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:             <div style='text-align: center; color: #6c757d; font-size: 0.9em;'>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p>If you have any questions, please don't hesitate to contact us:</p>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                 <p><a href='tel:+212600400530' style='color: #4ECDC4; text-decoration: none;'>+212 600-400-530</a></p>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:                 
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:             </div>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER:         </div>
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER: 
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER: .
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: SERVER -> CLIENT: 250 2.0.0 Ok: queued as 4Yp91n0bfyzHTnHN
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: CLIENT -> SERVER: QUIT
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: SERVER -> CLIENT: 221 2.0.0 Bye
+
+[05-Feb-2025 19:15:58 UTC] PHPMailer Debug: Connection: closed
