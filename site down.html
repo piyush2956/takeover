@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+        
+        body {
+            margin: 0;
+            background: linear-gradient(-45deg, #1a1a2e, #16213e, #0f3460, #1a1a2e);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: white;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+        
+        .container {
+            position: relative;
+            z-index: 2;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            text-align: center;
+            padding: 3rem;
+            max-width: 700px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transform: translateY(0);
+            animation: float 6s ease-in-out infinite, glow 2s ease-in-out infinite;
+            transition: all 0.3s ease;
+            perspective: 1000px;
+        }
+        
+        .container::before {
+            display: none;
+        }
+        
+        .container:hover {
+            transform: perspective(1000px) rotateX(5deg) rotateY(5deg) scale(1.02);
+            box-shadow: -10px -10px 20px rgba(255, 255, 255, 0.1), 10px 10px 20px rgba(0, 0, 0, 0.5);
+        }
+        
+        .maintenance-icon {
+            font-size: 6rem;
+            margin-bottom: 2rem;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .maintenance-icon::after {
+            content: '💫';
+            position: absolute;
+            font-size: 2rem;
+            top: -10px;
+            right: -10px;
+            animation: sparkle 1.5s ease-in-out infinite;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            font-weight: 700;
+            background: linear-gradient(45deg, #fff, #f0f0f0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        p {
+            font-size: 1.3rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+        
+        .status {
+            background: linear-gradient(45deg, #0f3460, #16213e);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            display: inline-block;
+            margin-bottom: 2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            animation: pulse 2s infinite;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(45deg, #000428, #004e92);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            z-index: 1;
+        }
+        
+        .status::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient( 45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transform: rotate(45deg);
+            animation: shine-effect 3s infinite;
+            z-index: -1;
+        }
+        
+        .status:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px rgba(255, 107, 107, 0.5);
+        }
+        
+        .highlight {
+            color: #00b4d8;
+            text-shadow: 0 0 10px rgba(0, 180, 216, 0.5);
+            transition: all 0.3s ease;
+            animation: neon-pulse 1.5s ease-in-out infinite alternate;
+            color: #00ff9d;
+            text-shadow: 0 0 10px #00ff9d, 0 0 20px #00ff9d, 0 0 30px #00ff9d;
+        }
+        
+        .highlight:hover {
+            color: #FFA500;
+            text-shadow: 0 0 15px rgba(255, 165, 0, 0.7);
+        }
+        
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        
+        @keyframes float {
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.05);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes sparkle {
+            0%,
+            100% {
+                transform: scale(1) rotate(0deg);
+            }
+            50% {
+                transform: scale(1.2) rotate(180deg);
+            }
+        }
+        
+        @keyframes glowing {
+            0% {
+                background-position: 0 0;
+            }
+            50% {
+                background-position: 400% 0;
+            }
+            100% {
+                background-position: 0 0;
+            }
+        }
+        
+        @keyframes float-around {
+            0% {
+                transform: translate(0, 0) rotate(0deg);
+            }
+            100% {
+                transform: translate(100vw, 100vh) rotate(360deg);
+            }
+        }
+        
+        @keyframes rainbow-bg {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        
+        @keyframes rainbow-glow {
+            0% {
+                background-position: 0% 82%;
+            }
+            50% {
+                background-position: 100% 19%;
+            }
+            100% {
+                background-position: 0% 82%;
+            }
+        }
+        
+        @keyframes shine {
+            to {
+                background-position: 200% center;
+            }
+        }
+        
+        @keyframes rainbow-hue {
+            from {
+                filter: hue-rotate(0deg);
+            }
+            to {
+                filter: hue-rotate(360deg);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                margin: 1rem;
+                padding: 2rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1.1rem;
+            }
+        }
+        
+        .social-links {
+            margin-top: 2rem;
+        }
+        
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.5rem;
+            opacity: 0.8;
+            transition: all 0.3s ease;
+            position: relative;
+            backdrop-filter: blur(5px);
+            padding: 10px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .social-links a:hover {
+            opacity: 1;
+            transform: translateY(-5px);
+        }
+        
+        .social-links a::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            border-radius: 50%;
+        }
+        
+        .social-links a:hover::before {
+            opacity: 1;
+        }
+        
+        .progress-bar {
+            width: 200px;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 3px;
+            margin: 20px auto;
+            overflow: hidden;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(5px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+        
+        .progress {
+            width: 0%;
+            height: 100%;
+            background: #00b4d8;
+            animation: loading 2s ease-in-out infinite;
+            background: linear-gradient(90deg, #000428, #004e92);
+            position: relative;
+        }
+        
+        .progress::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient( 90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            animation: progress-shine 1s linear infinite;
+        }
+        
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            border-radius: 15px;
+            backdrop-filter: blur(15px);
+        }
+        
+        .language-selector button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+            margin: 0 5px;
+            transition: transform 0.3s ease;
+        }
+        
+        .language-selector button:hover {
+            transform: scale(1.2);
+        }
+        
+        .floating-elements {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+        
+        .floating-element {
+            position: absolute;
+            animation: float-around 15s infinite linear;
+            opacity: 0.3;
+        }
+        
+        @keyframes loading {
+            0% {
+                width: 0%;
+            }
+            50% {
+                width: 100%;
+            }
+            100% {
+                width: 0%;
+            }
+        }
+        
+        @keyframes shine-effect {
+            0% {
+                transform: translateX(-100%) rotate(45deg);
+            }
+            100% {
+                transform: translateX(100%) rotate(45deg);
+            }
+        }
+        
+        @keyframes neon-pulse {
+            from {
+                text-shadow: 0 0 10px #00ff9d, 0 0 20px #00ff9d, 0 0 30px #00ff9d;
+            }
+            to {
+                text-shadow: 0 0 20px #00ff9d, 0 0 30px #00ff9d, 0 0 40px #00ff9d;
+            }
+        }
+        
+        @keyframes progress-shine {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+        
+        @keyframes glow {
+            0%,
+            100% {
+                box-shadow: 0 0 20px rgba(0, 255, 157, 0.1);
+            }
+            50% {
+                box-shadow: 0 0 30px rgba(0, 255, 157, 0.2);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <div class="language-selector">
+        <button onclick="changeLanguage('en')">🇺🇸</button>
+        <button onclick="changeLanguage('es')">🇪🇸</button>
+        <button onclick="changeLanguage('fr')">🇫🇷</button>
+        <button onclick="changeLanguage('ar')">🇸🇦</button>
+    </div>
+    <div class="floating-elements" id="floatingElements"></div>
+    <div class="container">
+        <div class="maintenance-icon">👗</div>
+        <div class="status">Fashion Revolution</div>
+        <h1>Creating Something <span class="highlight">Extraordinary</span></h1>
+        <p>Our digital fashion paradise is getting a complete transformation to bring you the ultimate shopping experience.</p>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+        <p>⚡ Launching <strong>Very Soon</strong> ⚡</p>
+        <div class="social-links">
+            <a href="#" title="Instagram">📸</a>
+            <a href="#" title="Twitter">🐦</a>
+            <a href="#" title="Facebook">📱</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        // Language content
+        const content = {
+            en: {
+                title: "Creating Something Extraordinary",
+                status: "Fashion Revolution",
+                message: "Our digital fashion paradise is getting a complete transformation to bring you the ultimate shopping experience.",
+                launch: "Launching Very Soon",
+            },
+            es: {
+                title: "Creando Algo Extraordinario",
+                status: "Revolución de la Moda",
+                message: "Nuestro paraíso digital de la moda está en transformación para brindarte la mejor experiencia de compra.",
+                launch: "Próximamente",
+            },
+            fr: {
+                title: "Création de Quelque Chose d'Extraordinaire",
+                status: "Révolution de la Mode",
+                message: "Notre paradis numérique de la mode se transforme pour vous offrir l'expérience shopping ultime.",
+                launch: "Bientôt Disponible",
+            },
+            ar: {
+                title: "نحن نبتكر شيئًا استثنائيًا",
+                status: "ثورة الموضة",
+                message: "جنة الأزياء الرقمية لدينا تخضع لتحول كامل لتقديم تجربة تسوق مثالية لك",
+                launch: "نطلق قريباً جداً",
+            }
+        };
+
+        // Detect browser language
+        const userLang = navigator.language || navigator.userLanguage;
+        const defaultLang = userLang.split('-')[0];
+
+        // Change language function
+        function changeLanguage(lang) {
+            document.querySelector('h1').textContent = content[lang].title;
+            document.querySelector('.status').textContent = content[lang].status;
+            document.querySelector('p').textContent = content[lang].message;
+            document.querySelector('strong').textContent = content[lang].launch;
+
+            if (lang === 'ar') {
+                document.body.style.direction = 'rtl';
+            } else {
+                document.body.style.direction = 'ltr';
+            }
+        }
+
+        // Initialize with browser language or fallback to English
+        changeLanguage(content[defaultLang] ? defaultLang : 'en');
+
+        // Create floating fashion elements
+        const fashionEmojis = ['👗', '👠', '👜', '👚', '👕', '🧢', '👢', '🕶️'];
+        const floatingContainer = document.getElementById('floatingElements');
+
+        function createFloatingElements() {
+            for (let i = 0; i < 20; i++) {
+                const element = document.createElement('div');
+                element.className = 'floating-element';
+                element.textContent = fashionEmojis[Math.floor(Math.random() * fashionEmojis.length)];
+                element.style.left = Math.random() * 100 + 'vw';
+                element.style.top = Math.random() * 100 + 'vh';
+                element.style.fontSize = (Math.random() * 20 + 10) + 'px';
+                element.style.animationDelay = (Math.random() * 10) + 's';
+                floatingContainer.appendChild(element);
+            }
+        }
+
+        // Initialize floating elements
+        createFloatingElements();
+
+        // Enhanced particle.js configuration
+        particlesJS('particles-js', {
+            particles: {
+                number: {
+                    value: 80
+                },
+                color: {
+                    value: "#ffffff"
+                },
+                shape: {
+                    type: "circle",
+                    stroke: {
+                        width: 0
+                    }
+                },
+                opacity: {
+                    value: 0.5,
+                    random: true
+                },
+                size: {
+                    value: 3,
+                    random: true
+                },
+                move: {
+                    enable: true,
+                    speed: 2,
+                    direction: "none",
+                    random: true,
+                    out_mode: "out",
+                    bounce: false
+                }
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: "grab"
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: "push"
+                    },
+                    resize: true
+                }
+            }
+        });
+
+        // Add mouse move effect for 3D card
+        const container = document.querySelector('.container');
+        container.addEventListener('mousemove', (e) => {
+            const rect = container.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+
+            const xRotation = ((y - rect.height / 2) / rect.height) * 20;
+            const yRotation = ((x - rect.width / 2) / rect.width) * 20;
+
+            container.style.transform = `
+                perspective(1000px)
+                rotateX(${-xRotation}deg)
+                rotateY(${yRotation}deg)
+                scale(1.02)
+            `;
+        });
+
+        container.addEventListener('mouseleave', () => {
+            container.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) scale(1)';
+        });
+
+        // Update particles configuration
+        particlesJS('particles-js', {
+            particles: {
+                number: {
+                    value: 80
+                },
+                color: {
+                    value: "#ffffff"
+                },
+                shape: {
+                    type: "circle",
+                    stroke: {
+                        width: 0
+                    }
+                },
+                opacity: {
+                    value: 0.5,
+                    random: true
+                },
+                size: {
+                    value: 3,
+                    random: true
+                },
+                move: {
+                    enable: true,
+                    speed: 2,
+                    direction: "none",
+                    random: true,
+                    out_mode: "out",
+                    bounce: false
+                }
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: "bubble"
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: "repulse"
+                    },
+                    resize: true
+                },
+                modes: {
+                    bubble: {
+                        distance: 250,
+                        size: 0,
+                        duration: 2,
+                        opacity: 0,
+                        speed: 3
+                    },
+                    repulse: {
+                        distance: 400,
+                        duration: 0.4
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
