@@ -1,0 +1,5 @@
+[06-Feb-2025 17:24:09 UTC] Login attempt - Username: admin
+[06-Feb-2025 17:24:09 UTC] Database query executed
+[06-Feb-2025 17:24:09 UTC] User found: Yes
+[06-Feb-2025 17:24:09 UTC] Password verified successfully
+[06-Feb-2025 17:24:09 UTC] Database error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u330854413_log.login_activity' doesn't exist
