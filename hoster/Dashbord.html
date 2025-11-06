@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head section remains the same -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Admin Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Style section remains the same -->
+    <style>
+        /* Keep existing styles */
+        
+         :root {
+            --primary-color: #4e73df;
+            --secondary-color: #858796;
+        }
+        
+        .sidebar {
+            background: linear-gradient(180deg, var(--primary-color) 0%, #224abe 100%);
+            min-height: 100vh;
+        }
+        
+        .sidebar .nav-link {
+            color: rgba(255, 255, 255, .8);
+        }
+        
+        .sidebar .nav-link:hover {
+            color: #fff;
+        }
+        
+        .card {
+            transition: transform 0.2s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .stats-icon {
+            font-size: 2rem;
+            opacity: 0.3;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            if (!sessionStorage.getItem('isLoggedIn')) {
+                window.location.href = 'index.html';
+            }
+            loadDashboardStats();
+            loadRecentOrders();
+            updateTotalSales();
+        });
+
+        async function loadDashboardStats() {
+            try {
+                const [statsResponse, messagesResponse] = await Promise.all([
+                    fetch('get_dashboard_stats.php'),
+                    fetch('get_messages.php')
+                ]);
+
+                const stats = await statsResponse.json();
+                const messages = await messagesResponse.json();
+
+                // Update existing stats
+                document.querySelector('.bg-primary h3').textContent = `${stats.totalSales} MAD`;
+                document.querySelector('.bg-success h3').textContent = stats.totalOrders;
+                document.querySelector('.bg-info h3').textContent = stats.totalCustomers;
+                document.querySelector('.bg-warning h3').textContent = stats.totalProducts;
+
+                // Update message stats
+                if (messages.success) {
+                    document.getElementById('totalMessages').textContent = messages.messages.length;
+                    document.getElementById('newMessages').textContent = `${messages.new_count} new`;
+
+                    // Update recent messages table
+                    const recentMessages = messages.messages.slice(0, 5); // Show only 5 most recent
+                    document.getElementById('recentMessagesTable').innerHTML = recentMessages.map(msg => `
+                        <tr>
+                            <td><span class="badge bg-${getMessageStatusColor(msg.status)}">${msg.status}</span></td>
+                            <td>${msg.first_name} ${msg.last_name}</td>
+                            <td>${msg.subject}</td>
+                            <td>${new Date(msg.created_at).toLocaleDateString()}</td>
+                        </tr>
+                    `).join('');
+                }
+            } catch (error) {
+                console.error('Error loading stats:', error);
+            }
+        }
+
+        async function loadRecentOrders() {
+            try {
+                const response = await fetch('get_recent_orders.php');
+                const orders = await response.json();
+
+                const ordersList = document.querySelector('.card-body');
+                if (orders.length === 0) {
+                    ordersList.innerHTML = '<p class="text-center text-muted">No orders yet</p>';
+                    return;
+                }
+
+                ordersList.innerHTML = `
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Order ID</th>
+                                    <th>Customer</th>
+                                    <th>Date</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${orders.map(order => `
+                                    <tr>
+                                        <td>#ORD-${order.order_id}</td>
+                                        <td>${order.customer_name}</td>
+                                        <td>${new Date(order.order_date).toLocaleDateString()}</td>
+                                        <td>${order.total_amount} MAD</td>
+                                        <td><span class="badge bg-${getStatusColor(order.status)}">${order.status}</span></td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                `;
+            } catch (error) {
+                console.error('Error loading recent orders:', error);
+            }
+        }
+
+        function getStatusColor(status) {
+            const colors = {
+                'Pending': 'warning',
+                'Processing': 'info',
+                'Shipped': 'primary',
+                'Delivered': 'success',
+                'Cancelled': 'danger'
+            };
+            return colors[status] || 'secondary';
+        }
+
+        function getMessageStatusColor(status) {
+            return {
+                'new': 'warning',
+                'read': 'success',
+                'replied': 'primary'
+            }[status] || 'secondary';
+        }
+    </script>
+</head>
+
+<body>
+    <script>
+        // Add this at the beginning of your file, right after <body> tag
+        document.addEventListener('DOMContentLoaded', function() {
+            checkAuthentication();
+        });
+
+        function checkAuthentication() {
+            if (!sessionStorage.getItem('isLoggedIn')) {
+                fetch('auth/check_session.php')
+                    .then(response => response.json())
+                    .then(data => {
+                        if (!data.authenticated) {
+                            window.location.href = 'index.html';
+                        }
+                    })
+                    .catch(() => {
+                        window.location.href = 'index.html';
+                    });
+            }
+        }
+
+        // Update your existing logout function
+        function logout() {
+            fetch('auth/logout.php')
+                .then(() => {
+                    sessionStorage.removeItem('isLoggedIn');
+                    window.location.href = 'index.html';
+                });
+        }
+    </script>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Updated sidebar navigation -->
+            <div class="col-md-3 col-lg-2 sidebar p-3">
+                <h3 class="text-white mb-4">Store Admin</h3>
+                <div class="nav flex-column">
+                    <a class="nav-link active" href="Dashbord.html" style="background: rgba(255,255,255,0.2); color: #fff;">
+                        <i class="fas fa-tachometer-alt me-2"></i>Dashboard
+                    </a>
+                    <a class="nav-link" href="Products.html">
+                        <i class="fas fa-box me-2"></i>Products
+                    </a>
+                    <a class="nav-link" href="Orders.html">
+                        <i class="fas fa-shopping-cart me-2"></i>Orders
+                    </a>
+                    <a class="nav-link" href="Customers.html">
+                        <i class="fas fa-users me-2"></i>Customers
+                    </a>
+                    <a class="nav-link" href="Analytics.html">
+                        <i class="fas fa-chart-bar me-2"></i>Analytics
+                    </a>
+                    <a class="nav-link" href="Messages.html">
+                        <i class="fas fa-envelope me-2"></i>Messages
+                    </a>
+                    <a class="nav-link" href="./variation/special.html">
+                        <i class="fas fa-cog me-2"></i>Settings
+                        <a class="nav-link text-danger" href="#" onclick="logout()">
+                            <i class="fas fa-sign-out-alt me-2"></i>Logout
+                        </a>
+                </div>
+            </div>
+
+            <!-- Modified Main Content -->
+            <div class="col-md-9 col-lg-10 p-4">
+                <h2 class="mb-4">Dashboard Overview</h2>
+
+                <!-- Modified Stats Cards -->
+                <div class="row g-4 mb-4">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-primary text-white">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h6>TOTAL SALES</h6>
+                                        <h3 id="totalSales">0 MAD</h3>
+                                    </div>
+                                    <i class="fas fa-dollar-sign stats-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            async function updateTotalSales() {
+                                try {
+                                    const response = await fetch('get_orders.php');
+                                    const result = await response.json();
+
+                                    if (result.success && result.data) {
+                                        const totalSales = result.data.reduce((sum, order) =>
+                                            sum + parseFloat(order.total_amount), 0);
+                                        document.getElementById('totalSales').textContent =
+                                            `${totalSales.toFixed(2)} MAD`;
+                                    }
+                                } catch (error) {
+                                    console.error('Error calculating total sales:', error);
+                                }
+                            }
+
+                            // Update total sales and orders on page load
+                            document.addEventListener('DOMContentLoaded', async function() {
+                                await updateTotalSales();
+                                await updateTotalOrders();
+                            });
+
+                            async function updateTotalOrders() {
+                                try {
+                                    const response = await fetch('get_orders.php');
+                                    const result = await response.json();
+
+                                    if (result.success && result.data) {
+                                        const totalOrders = result.data.length;
+                                        const ordersElement = document.querySelector('.bg-success h3');
+                                        if (ordersElement) {
+                                            ordersElement.textContent = totalOrders;
+                                        }
+                                    }
+                                } catch (error) {
+                                    console.error('Error calculating total orders:', error);
+                                }
+                            }
+                        </script>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-success text-white">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h6>ORDERS</h6>
+                                        <h3>0</h3>
+                                    </div>
+                                    <i class="fas fa-shopping-bag stats-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-info text-white">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h6>CUSTOMERS</h6>
+                                        <h3>0</h3>
+                                    </div>
+                                    <i class="fas fa-users stats-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            async function updateTotalCustomers() {
+                                try {
+                                    const response = await fetch('get_customers.php');
+                                    const result = await response.json();
+
+                                    if (result.success && result.data) {
+                                        const totalCustomers = result.data.length;
+                                        const customersElement = document.querySelector('.bg-info h3');
+                                        if (customersElement) {
+                                            customersElement.textContent = totalCustomers;
+                                        }
+                                    }
+                                } catch (error) {
+                                    console.error('Error calculating total customers:', error);
+                                }
+                            }
+
+                            document.addEventListener('DOMContentLoaded', updateTotalCustomers);
+                        </script>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-warning text-white">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h6>PRODUCTS</h6>
+                                        <h3 id="totalProducts">0</h3>
+                                    </div>
+                                    <i class="fas fa-box stats-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            async function updateTotalProducts() {
+                                try {
+                                    const response = await fetch('get_products_count.php');
+                                    const result = await response.json();
+
+                                    if (result.success) {
+                                        document.getElementById('totalProducts').textContent = result.count;
+                                    }
+                                } catch (error) {
+                                    console.error('Error calculating total products:', error);
+                                }
+                            }
+
+                            document.addEventListener('DOMContentLoaded', updateTotalProducts);
+                        </script>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-info text-white">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <h6>MESSAGES</h6>
+                                        <h3 id="totalMessages">0</h3>
+                                        <small id="newMessages" class="text-warning">0 new</small>
+                                    </div>
+                                    <i class="fas fa-envelope stats-icon"></i>
+                                </div>
+                                <script>
+                                    async function updateMessageStats() {
+                                        try {
+                                            const response = await fetch('get_messages.php');
+                                            const data = await response.json();
+
+                                            if (data.success) {
+                                                // Update total messages count
+                                                document.getElementById('totalMessages').textContent = data.messages.length;
+                                                // Update new messages count
+                                                document.getElementById('newMessages').textContent = `${data.new_count} new`;
+                                            }
+                                        } catch (error) {
+                                            console.error('Error updating message stats:', error);
+                                        }
+                                    }
+
+                                    // Update message stats initially and every 30 seconds
+                                    document.addEventListener('DOMContentLoaded', () => {
+                                        updateMessageStats();
+                                        setInterval(updateMessageStats, 30000);
+                                    });
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modified Recent Orders Table -->
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title mb-0">Recent Orders</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive"></div>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Order ID</th>
+                                    <th>Customer</th>
+                                    <th>Date</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="recentOrdersTableBody">
+                                <!-- Orders will be loaded here -->
+                                <th>Status</th>
+                                <th>From</th>
+                                <th>Subject</th>
+                    </div>
+
+                    <!-- Recent Messages -->
+                    <div class="card mt-4">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h5 class="card-title mb-0">Recent Messages</h5>
+                            <a href="Messages.html" class="btn btn-sm btn-primary">View All</a>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Status</th>
+                                            <th>From</th>
+                                            <th>Subject</th>
+                                            <th>Date</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="recentMessagesTable">
+                                        <!-- Messages will be loaded here -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    async function loadRecentOrders() {
+                        try {
+                            const response = await fetch('get_orders.php');
+                            const result = await response.json();
+
+                            if (!result.success) {
+                                throw new Error(result.message);
+                            }
+
+                            const orders = result.data;
+                            const tableBody = document.getElementById('recentOrdersTableBody');
+
+                            if (orders.length === 0) {
+                                tableBody.innerHTML = '<tr><td colspan="6" class="text-center">No orders found</td></tr>';
+                                return;
+                            }
+
+                            // Only show the 5 most recent orders
+                            const recentOrders = orders.slice(0, 5);
+
+                            tableBody.innerHTML = recentOrders.map(order => `
+                                <tr>
+                                    <td>#${order.order_id}</td>
+                                    <td>${order.customer_name}</td>
+                                    <td>${new Date(order.order_date).toLocaleDateString()}</td>
+                                    <td>${order.total_amount} MAD</td>
+                                    <td><span class="badge bg-${getStatusColor(order.status)}">${order.status}</span></td>
+                                    <td>
+                                        <button class="btn btn-sm btn-info" onclick="viewOrderDetails(${order.order_id})">
+                                            <i class="fas fa-eye"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            `).join('');
+                        } catch (error) {
+                            console.error('Error loading orders:', error);
+                            alert('Failed to load orders. Please try again later.');
+                        }
+                    }
+
+                    async function loadRecentMessages() {
+                        try {
+                            const response = await fetch('get_messages.php');
+                            const data = await response.json();
+
+                            if (!data.success) {
+                                throw new Error(data.error || 'Failed to load messages');
+                            }
+
+                            // Take only the 5 most recent messages
+                            const recentMessages = data.messages.slice(0, 5);
+                            const tableBody = document.getElementById('recentMessagesTable');
+
+                            if (recentMessages.length === 0) {
+                                tableBody.innerHTML = '<tr><td colspan="5" class="text-center">No messages found</td></tr>';
+                                return;
+                            }
+
+                            tableBody.innerHTML = recentMessages.map(msg => `
+                            <tr>
+                                <td>
+                                    <span class="badge bg-${getMessageStatusColor(msg.status)}">
+                                        ${msg.status}
+                                    </span>
+                                </td>
+                                <td>${msg.first_name} ${msg.last_name}</td>
+                                <td>${msg.subject}</td>
+                                <td>${new Date(msg.created_at).toLocaleDateString()}</td>
+                                <td>
+                                    <button class="btn btn-sm btn-info" onclick="viewMessageDetails(${msg.id})">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        `).join('');
+                        } catch (error) {
+                            console.error('Error loading messages:', error);
+                            document.getElementById('recentMessagesTable').innerHTML =
+                                '<tr><td colspan="5" class="text-center text-danger">Error loading messages</td></tr>';
+                        }
+                    }
+
+                    // Add this to the existing document ready event listener
+                    document.addEventListener('DOMContentLoaded', function() {
+                        // ... existing code ...
+                        loadRecentMessages();
+                        // Refresh messages every 30 seconds
+                        setInterval(loadRecentMessages, 30000);
+                    });
+
+                    function viewMessageDetails(id) {
+                        window.location.href = `Messages.html?id=${id}`;
+                    }
+                </script>
+
+
+            </div>
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+            <script>
+                //Remove duplicate event listeners and consolidate authentication check
+                document.addEventListener('DOMContentLoaded', function() {
+                    // Check authentication
+                    if (!sessionStorage.getItem('isLoggedIn')) {
+                        window.location.href = 'index.html';
+                        return;
+                    }
+
+                    // Initialize dashboard
+                    loadDashboardStats();
+                    loadRecentOrders();
+                    startInactivityTimer();
+                });
+
+                function logout() {
+                    sessionStorage.clear(); // Clear all session data
+                    window.location.href = 'index.html';
+                }
+
+                function startInactivityTimer() {
+                    let inactivityTimer;
+
+                    function resetTimer() {
+                        clearTimeout(inactivityTimer);
+                        inactivityTimer = setTimeout(logout, 300000); // 5 minutes
+                    }
+
+                    // Add event listeners for user activity
+                    ['mousemove', 'keypress', 'click', 'scroll'].forEach(event => {
+                        document.addEventListener(event, resetTimer);
+                    });
+
+                    // Start the timer
+                    resetTimer();
+                }
+            </script>
+
+</body>
+
+</html>

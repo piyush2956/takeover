@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a2980 0%, #26d0ce 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .login-container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 400px;
+            backdrop-filter: blur(15px);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        h2 {
+            text-align: center;
+            color: #1a2980;
+            margin-bottom: 30px;
+            font-size: 2.2em;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        
+        .input-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .input-group input {
+            width: 100%;
+            padding: 15px;
+            padding-left: 45px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            box-sizing: border-box;
+            font-size: 16px;
+            transition: all 0.4s ease;
+        }
+        
+        .input-group i {
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #1a2980;
+        }
+        
+        .input-group input:focus {
+            border-color: #1a2980;
+            box-shadow: 0 0 15px rgba(26, 41, 128, 0.3);
+        }
+        
+        button {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(45deg, #1a2980, #26d0ce);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.4s ease;
+        }
+        
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        .register-notice {
+            color: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+        }
+        
+        .back-to-login {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .back-to-login a {
+            color: #1a2980;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <div class="login-container">
+        <h2>Create Account</h2>
+        <form action="auth/register.php" method="POST">
+            <div class="input-group">
+                <input type="text" name="firstname" placeholder="First Name" required>
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="input-group">
+                <input type="text" name="lastname" placeholder="Last Name" required>
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="input-group">
+                <input type="text" name="username" placeholder="Username" required>
+                <i class="fas fa-user-circle"></i>
+            </div>
+            <div class="input-group">
+                <input type="email" name="email" placeholder="Email" required>
+                <i class="fas fa-envelope"></i>
+            </div>
+            <div class="input-group">
+                <input type="password" name="password" placeholder="Password" required>
+                <i class="fas fa-lock"></i>
+            </div>
+            <div class="input-group">
+                <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+                <i class="fas fa-lock"></i>
+            </div>
+            <button type="submit">Register</button>
+            <div class="register-notice">
+                This will be your permanent login. Please remember your credentials.
+            </div>
+            <div class="back-to-login">
+                <a href="index.html">Already have an account? Login here</a>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        // Copy particles config from index.html
+        // ...existing code...
+    </script>
+</body>
+
+</html>
