@@ -1,0 +1,176 @@
+.body {
+    background-color: white;
+}
+
+#offcanvasTop {
+    --bs-offcanvas-height: 80vh;
+    background-color: #c5e1d4;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    background: #f8f9fa;
+    color: #666;
+}
+
+.social-btn i {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.social-btn:hover {
+    transform: translateX(10px);
+    color: white;
+}
+
+.social-btn.facebook:hover {
+    background: #3b5998;
+}
+
+.social-btn.instagram:hover {
+    background: #e1306c;
+}
+
+.social-btn.twitter:hover {
+    background: #1da1f2;
+}
+
+.social-btn.linkedin:hover {
+    background: #0077b5;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.form-control:focus {
+    border-color: #198754;
+    box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+}
+
+.col-md-6.col-xl-4 {
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-card {
+    transition: transform 0.3s ease;
+    border: none;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-text a {
+    color: #666;
+}
+
+.card-text a:hover {
+    color: #0d6efd;
+}
+
+.contact-icon {
+    margin-right: 10px;
+}
+
+.contact-form-wrapper {
+    background: linear-gradient(to right bottom, #ffffff, #f8f9fa);
+    transition: transform 0.3s ease;
+}
+
+.contact-form-wrapper:hover {
+    transform: translateY(-5px);
+}
+
+.form-control,
+.form-select {
+    transition: all 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.1);
+    transform: scale(1.02);
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+}
+
+
+/* RTL Support for Contact Form */
+
+[dir="rtl"] .form-floating label {
+    right: 0;
+    left: auto;
+    transform-origin: right;
+}
+
+[dir="rtl"] .icon-circle {
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+[dir="rtl"] .contact-icon {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+[dir="rtl"] .social-btn i {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+[dir="rtl"] .social-btn:hover {
+    transform: translateX(-10px);
+}
+
+[dir="rtl"] .submit-btn i {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+[dir="rtl"] .form-floating>.form-control {
+    padding-right: 1rem;
+    padding-left: 0;
+}
+
+[dir="rtl"] .breadcrumb-item+.breadcrumb-item::before {
+    float: right;
+    padding-left: 0.5rem;
+    padding-right: 0;
+}
